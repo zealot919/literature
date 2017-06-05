@@ -1,0 +1,11 @@
+# install4j response file for JabRef 3.6
+createDesktopLinkAction$Boolean=true
+executeLauncherAction$Boolean=true
+sys.adminRights$Boolean=true
+sys.fileAssociation.extensions$StringArray="bib"
+sys.fileAssociation.launchers$StringArray="23"
+sys.installationDir=C\:\\Program Files\\JabRef
+sys.languageId=zh_CN
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=JabRef

@@ -1,0 +1,481 @@
+[INFO] logger started at Thu Sep 22 08:44:11 CST 2016
+[INFO] executable name: C:\Users\ccc\Downloads\JabRef_windows-x64_3_6.exe
+[INFO] install4j version: 6.1.1 (build 6254)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Users\ccc\Downloads\JabRef_windows...
+sun.boot.library.path=c:\users\ccc\appdata\local\temp\e4ja7...
+exe4j.semaphoreName=Local\c:_users_ccc_downloads_jabref_w...
+java.vm.version=25.102-b14
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=CN
+sun.os.patch.level=Service Pack 1
+install4j.exeDir=C:\Users\ccc\Downloads\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Users\ccc\AppData\Local\Temp\e4jA7...
+java.runtime.version=1.8.0_102-b14
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\users\ccc\appdata\local\temp\e4ja7...
+os.arch=amd64
+java.io.tmpdir=C:\Users\ccc\AppData\Local\Temp\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Users\ccc\AppData\Local\Temp\e4jA7...
+os.name=Windows 7
+sun.java2d.noddraw=true
+sun.jnu.encoding=GBK
+java.library.path=C:\Users\ccc\AppData\Local\Temp\e4jA7...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+exe4j.isInstall4j=true
+os.version=6.1
+user.home=C:\Users\ccc
+user.timezone=Asia/Shanghai
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=GBK
+user.name=ccc
+java.class.path=C:\Users\ccc\AppData\Local\Temp\e4jA7...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=c:\users\ccc\appdata\local\temp\e4ja7...
+sun.java.command=C:\Users\ccc\Downloads\JabRef_windows...
+exe4j.launchName=C:\Users\ccc\Downloads\JabRef_windows...
+java.specification.vendor=Oracle Corporation
+user.language=zh
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=3608705
+java.version=1.8.0_102
+java.ext.dirs=c:\users\ccc\appdata\local\temp\e4ja7...
+sun.boot.class.path=c:\users\ccc\appdata\local\temp\e4ja7...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Users\ccc\AppData\Local\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.desktop=windows
+sun.cpu.isalist=amd64
+[INFO] System language 'zh'
+[INFO] System locale 'zh_CN'
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property allRequested: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalWin: false
+       Property failIfNotObtainedWin: true
+       Property obtainIfAdminMac: false
+       Property obtainIfNormalMac: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotRootUnix: false
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 4493 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+       thread name AWT-EventQueue-0
+[INFO] Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 184]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_16
+       Property rollbackSupported: false
+       Property rollbackScript: null
+       Execute action successful after 156 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: Show screen
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 5]: Execute action
+       Property file: null
+       Property excludedVariables: [sys.installationDir]
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Response file C:\Program Files\JabRef\.install4j\response.varfile does not exist
+       Execute action successful after 15 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 4]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: Show screen
+       Variable changed: sys.programGroupName=JabRef[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 7]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 81]: Show screen
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 81]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 132]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property uninstallServices: true
+       Property rollbackSupported: true
+       checking running processes
+       checking running processes ok
+       getting previous installation id
+       no previous installation detected, uninstaller was not started
+       finished
+       Execute action successful after 63 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property installRuntime: true
+       Property sizeCalculatorScript: null
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property triggerReboot: true
+       Property delay: false
+       Property showFileNames: true
+       Property fileFilterScript: null
+       Property directoryResolverScript: null
+       Property rollbackSupported: true
+       checking writable with maximum
+       checking writable with maximum
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\awt.dll; size: 1516096 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:03 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\bci.dll; size: 16960 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\dcpr.dll; size: 159808 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\decora_sse.dll; size: 86080 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\deploy.dll; size: 586816 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\dt_shmem.dll; size: 29760 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\dt_socket.dll; size: 24640 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\eula.dll; size: 136256 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\fontmanager.dll; size: 274496 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\fxplugins.dll; size: 186944 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\glass.dll; size: 265792 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\glib-lite.dll; size: 455744 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\gstreamer-lite.dll; size: 619584 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\hprof.dll; size: 158272 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\instrument.dll; size: 123456 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\j2pcsc.dll; size: 19008 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\j2pkcs11.dll; size: 63552 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jaas_nt.dll; size: 21056 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jabswitch.exe; size: 34368 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\java-rmi.exe; size: 15936 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\java.dll; size: 159296 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\java.exe; size: 206400 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\JavaAccessBridge-64.dll; size: 142400 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javacpl.cpl; size: 186368 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javacpl.exe; size: 79936 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javafx_font.dll; size: 69184 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javafx_font_t2k.dll; size: 538688 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javafx_iio.dll; size: 128064 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\javaw.exe; size: 206912 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\java_crw_demo.dll; size: 29760 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jawt.dll; size: 14400 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\JAWTAccessBridge-64.dll; size: 15424 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jdwp.dll; size: 201280 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jfr.dll; size: 26688 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jfxmedia.dll; size: 139840 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jfxwebkit.dll; size: 39328320 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jjs.exe; size: 15936 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jli.dll; size: 174656 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jp2iexp.dll; size: 294976 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jp2launcher.exe; size: 111680 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jp2native.dll; size: 20032 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jp2ssv.dll; size: 234560 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jpeg.dll; size: 185920 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jsdt.dll; size: 18496 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jsound.dll; size: 35392 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\jsoundds.dll; size: 31296 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\kcms.dll; size: 220736 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\keytool.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\kinit.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\klist.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\ktab.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\lcms.dll; size: 233536 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\management.dll; size: 36928 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\mlib_image.dll; size: 653376 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\msvcp120.dll; size: 660128 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\msvcr100.dll; size: 827728 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\msvcr120.dll; size: 963232 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\net.dll; size: 95808 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\nio.dll; size: 60480 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\npt.dll; size: 19008 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\orbd.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\pack200.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\policytool.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\prism_common.dll; size: 57408 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\prism_d3d.dll; size: 130624 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\prism_sw.dll; size: 97856 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\resource.dll; size: 15424 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\rmid.exe; size: 15936 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\rmiregistry.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\server\jvm.dll; size: 8794176 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\server\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\servertool.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\splashscreen.dll; size: 211008 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\ssv.dll; size: 571456 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\ssvagent.exe; size: 69696 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\sunec.dll; size: 134720 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\sunmscapi.dll; size: 31808 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\t2k.dll; size: 255040 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\tnameserv.exe; size: 16448 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\unpack.dll; size: 79936 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\unpack200.exe; size: 197184 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\verify.dll; size: 49216 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\w2k_lsa_auth.dll; size: 24128 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\WindowsAccessBridge-64.dll; size: 110144 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\wsdetect.dll; size: 192576 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\bin\zip.dll; size: 77888 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\COPYRIGHT; size: 3244 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\accessibility.properties; size: 149 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\amd64\jvm.cfg; size: 634 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\calendars.properties; size: 1378 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\charsets.jar; size: 3036922 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\classlist; size: 84355 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\currency.data; size: 4122 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\ffjcext.zip; size: 14156 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\splash.gif; size: 8590 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy\splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\deploy.jar; size: 5005706 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:05 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\access-bridge-64.jar; size: 186941 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:07 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:08 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\jaccess.jar; size: 43839 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:09 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\jfxrt.jar; size: 18162477 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\localedata.jar; size: 2204371 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\meta-index; size: 1461 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\nashorn.jar; size: 1978459 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:10 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\sunec.jar; size: 39771 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\sunjce_provider.jar; size: 279427 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\sunmscapi.jar; size: 32699 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\sunpkcs11.jar; size: 250826 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\ext\zipfs.jar; size: 67458 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:10 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fontconfig.bfc; size: 3678 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fontconfig.properties.src; size: 10489 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\javafx.properties; size: 56 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jce.jar; size: 115557 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jfr\default.jfc; size: 20109 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jfr\profile.jfc; size: 20065 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jfr.jar; size: 558233 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:05 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jfxswt.jar; size: 33471 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jsse.jar; size: 571872 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\management\management.properties; size: 14630 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:05 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\meta-index; size: 2126 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\net.properties; size: 3070 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\plugin.jar; size: 1922780 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:05 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\resources.jar; size: 3490940 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:05 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\rt.jar; size: 54419699 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:07 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:04 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: Never, delayIfNecessary: false]
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\blacklisted.certs; size: 1253 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\cacerts; size: 112860 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\java.policy; size: 2466 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\java.security; size: 27033 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\local_policy.jar; size: 3527 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\security\US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\tzdb.dat; size: 103910 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\lib\tzmappings; size: 8400 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\LICENSE; size: 40 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\README.txt; size: 46 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\release; size: 528 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 110114 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\THIRDPARTYLICENSEREADME.txt; size: 177094 bytes; exists: false
+       Install file: C:\Program Files\Common Files\i4j_jres\1.8.0_102\Welcome.html; size: 955 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4jdel.exe; size: 79904 bytes; exists: false
+       File options set to: [fileTime: Fri Aug 26 08:58:24 CST 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\.install4j\i4jinst.dll; size: 155136 bytes; exists: false
+       Install file: C:\Program Files\JabRef\AUTHORS; size: 2623 bytes; exists: false
+       Install file: C:\Program Files\JabRef\JabRef-3.6.jar; size: 25421252 bytes; exists: false
+       Install file: C:\Program Files\JabRef\JabRef.VisualElementsManifest.xml; size: 242 bytes; exists: false
+       Install file: C:\Program Files\JabRef\JabRef.exe; size: 288768 bytes; exists: false
+       File options set to: [fileTime: Fri Aug 26 08:58:24 CST 2016, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\JabRef.vmoptions; size: 248 bytes; exists: false
+       File options set to: [fileTime: Fri Aug 26 08:58:24 CST 2016, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\uninstall.exe; size: 363008 bytes; exists: false
+       File options set to: [fileTime: Fri Aug 26 08:58:24 CST 2016, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\.install4j\inst_jre.cfg; size: 63 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:30 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\.install4j\pref_jre.cfg; size: 50 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:30 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\.install4j\i4jruntime.jar; size: 1951745 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:30 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files\JabRef\.install4j\MessagesDefault; size: 33540 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4jparams.conf; size: 35783 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\stats.properties; size: 263 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\user.jar; size: 11276 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_0_17i8n0z.utf8; size: 33540 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_10_17i8n0z.utf8; size: 48910 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_11_17i8n0z.utf8; size: 36821 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_12_17i8n0z.utf8; size: 34851 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_13_17i8n0z.utf8; size: 44253 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_14_17i8n0z.utf8; size: 38563 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_15_17i8n0z.utf8; size: 32409 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_16_17i8n0z.utf8; size: 34747 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_17_17i8n0z.utf8; size: 37646 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_18_17i8n0z.utf8; size: 34568 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_19_17i8n0z.utf8; size: 37409 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_1_17i8n0z.utf8; size: 28349 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_20_17i8n0z.utf8; size: 53101 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_21_17i8n0z.utf8; size: 36293 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_22_17i8n0z.utf8; size: 31908 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_23_17i8n0z.utf8; size: 37541 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_24_17i8n0z_ry1996.icns; size: 126105 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_25_17i8n0z_1ttwfba.ico; size: 35313 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_2_17i8n0z.utf8; size: 27656 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_3_17i8n0z.utf8; size: 34552 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_4_17i8n0z.utf8; size: 33733 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_5_17i8n0z.utf8; size: 32117 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_6_17i8n0z.utf8; size: 33855 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_7_17i8n0z.utf8; size: 32793 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_8_17i8n0z.utf8; size: 38922 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\i4j_extf_9_17i8n0z.utf8; size: 36090 bytes; exists: false
+       Install file: C:\Program Files\JabRef\.install4j\installer.ico; size: 35313 bytes; exists: false
+       Execute action successful after 6266 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property allUsers: true
+       Property unixSymlinks: true
+       Property linkDirectory: 
+       Property addUninstaller: true
+       Property categories: Application
+       Property uninstallerMenuName: JabRef –∂‘ÿ≥Ã–Ú
+       Property addDefaultLauncherLinks: true
+       Property programGroupEntryConfigs: []
+       Property failForSymlinksNotCreated: false
+       Property unixMenuEntries: true
+       Property programGroupName: JabRef
+       Property rollbackSupported: true
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\JabRef\JabRef.lnk; size: 1818 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:30 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\JabRef\JabRef –∂‘ÿ≥Ã–Ú.lnk; size: 1841 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:31 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 468 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property icon: null
+       Property itemName: JabRef 3.6
+       Property iconSource: Installer icon
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 94 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 83]: Execute action
+       Property name: JabRef
+       Property file: JabRef.exe
+       Property arguments: 
+       Property description: 
+       Property allUsers: true
+       Property startIn: null
+       Property winIconFile: null
+       Property runAsAdministrator: false
+       Property macSingleBundleTarget: true
+       Property rollbackSupported: true
+       Install file: C:\Users\Public\Desktop\JabRef.lnk; size: 1818 bytes; exists: false
+       File options set to: [fileTime: Thu Sep 22 08:44:31 CST 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 46 ms
+[INFO] com.install4j.runtime.beans.actions.registry.SetRegistryValueAction [ID 238]: Execute action
+       Property value: C:\Program Files\JabRef
+       Property registryRoot: HKEY_LOCAL_MACHINE
+       Property keyName: SOFTWARE\JabRef
+       Property valueName: Path
+       Property createKey: true
+       Property rollbackSupported: true
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FileAssociationsScreen [ID 27]: Show screen
+       Variable changed: sys.fileAssociation.extensions=[bib][class [Ljava.lang.String;]
+       Variable changed: sys.fileAssociation.launchers=[23][class [Ljava.lang.String;]
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 32]: Execute action
+       Property extension: bib
+       Property windows: true
+       Property selected: true
+       Property description: BibTeX
+       Property launcherId: 23
+       Property mac: true
+       Property restartFinder: false
+       Property macIconFile: i4j_extf_24_17i8n0z_ry1996.icns
+       Property macRole: Editor
+       Property windowsIconFile: i4j_extf_25_17i8n0z_1ttwfba.ico
+       Property winAdditionalParameters: 
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       using internal name JabRef
+       Execute action successful after 78 ms
+[INFO] com.install4j.runtime.beans.screens.FileAssociationsScreen [ID 27]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.finish.ExecuteLauncherAction [ID 88]: Execute action
+       Property arguments: null
+       Property launcherId: 23
+       Property rollbackSupported: false
+       execute using batch file
+       Execute action successful after 536 ms
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

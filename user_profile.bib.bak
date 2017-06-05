@@ -1,0 +1,440 @@
+% Encoding: UTF-8
+
+@Article{2016-acm-Accurate,
+  author   = {Soya Park},
+  title    = {Poster: Accurate Schedule Alarming Based on User Profiling},
+  journal  = {MobiSys ’16 Companion, June 25–30, 2016, Singapore},
+  year     = {2016},
+  abstract = {时间管理实现变化很大，然而常用的方法是调度器。调度通知在哪里下一步打算发生，什么时候醒来，离开等。
+然而，它不够聪明，按时准时。当前调度器只能在固定时间之前提供平坦的调度警告，并且用户必须检查手动离开的时间。
+受此启发，我们展示了使用手机的传感器捕获用户的特点，并根据用户的特征和状态准时到达时间安排的准确时间安排的前景。},
+  file     = {2016-acm-Accurate Schedule Alarming Based on User Profiling.pdf:2016-acm-Accurate Schedule Alarming Based on User Profiling.pdf:PDF},
+  review   = {未全文精读
+海报，非常简单的介绍},
+}
+
+@Article{2016-acm-WorkshoponProfilingUser,
+  author   = {Rani Nelken},
+  title    = {RecProfile ’16: Workshop on Profiling User Preferences for Dynamic, Online, and Real-Time recommendations},
+  journal  = {RecSys ’16, September 15-19, 2016, Boston , MA, USA},
+  year     = {2016},
+  abstract = {本文总结RecProfile '16，第一次关于动态，在线和实时建议的用户偏好分析的研讨会，与RecSys '16，第十届推荐系统ACM会议一起举行。
+我们描述研讨会文件中出现的主要主题。
+
+关键词
+用户分析; 用户偏好; 动态用户分析; 图算法; 推荐系统; 动态社区检测; 矩阵分解; 协同过滤; 基于内容的推荐系统},
+  file     = {2016-acm-WorkshoponProfilingUser Preferences for Dynamic, Online, and Real-Time recommendations .pdf:2016-acm-WorkshoponProfilingUser Preferences for Dynamic, Online, and Real-Time recommendations .pdf:PDF},
+  keywords = {rank2},
+  review   = {未精读
+通过关键词可以看出该会议最新的研究点},
+}
+
+@Article{2016-ACM-Personalised,
+  author   = {Gabriella Kazai/Lumi_News},
+  title    = {Personalised News and Blog Recommendations based on User Location, Facebook and Twitter User Profiling 基于用户位置，Facebook和Twitter用户分析的个性化新闻和博客推荐},
+  journal  = {SIGIR ’16, July 17-21, 2016, Pisa, Italy},
+  year     = {2016},
+  abstract = {此演示提供了一个原型移动应用程序通过利用和组合用户的位置，向用户提供开箱即用的个性化内容建议，他们的Facebook和/或Twitter Feed以及他们的应用内动作来自动推断他们的兴趣。
+我们为每个用户和每个位置构建单个模型。在检索时，我们通过将不同的基于内容的推荐内容与内容直接从他们的Facebook / Twitter Feed，本地热门文章和通过其应用内社交网络传播的内容混合构建用户的个性化Feed。
+用户与其建议的交互的显式和隐含的反馈信号都用于更新他们的兴趣模型，并通过不同的内容来源学习他们的偏好。},
+  file     = {2016-ACM-Personalised News and Blog Recommendations based on User Location, Facebook and Twitter User Profiling.pdf:2016-ACM-Personalised News and Blog Recommendations based on User Location, Facebook and Twitter User Profiling.pdf:PDF},
+  review   = {只看了实验部分
+我们的最终目标是制作一个人们想要每天使用的应用程序：我们希望优化用户保留。
+然而，衡量对 留存率 的影响需要很长时间，我们已经找到了一个与之密切相关的指标，
+即用户花费超过三十秒阅读的建议数量（从现在开始我们将其称为“读”）。
+这是一个用于新闻应用程序的自然指标，它允许我们在尝试不同的推荐算法时迭代更快。
+
+为了说明用户群体的自然变化以及不同用户的阅读倾向，我们对单独的建议使用拆分测试，
+以便每个用户从各种来源或算法获取建议。这使我们能够看到有多少用户喜欢将一个源或算法优先于另一个，
+提供一种可靠的方式来确定建议是否正常工作。如果我们要在整个用户分割建议，
+使一些用户得到了一种类型的建议，而有些用户则有另外一个，这将是很难相信我们的结果，因为有些用户阅读，自然比别人多。
+
+We use a Bayesian formula due to Evan Miller4 to compare two types of recommendations.
+数据源：http://www.evanmiller.org/bayesian-abtesting.html},
+}
+
+@Article{2016-acm-Profiling,
+  author   = {Pengyuan Zhou/University of Helsinki, Finland},
+  title    = {Profiling and Grouping Users to Edge Resources According to User Interest Similarity 根据用户兴趣相似性对用户进行边缘资源分析和分组},
+  journal  = {CAN’16, December 12 2016, Irvine, CA, USA},
+  year     = {2016},
+  abstract = {云计算为大规模分布式应用程序提供了一个共享的资源池。
+雾化计算和边缘计算等最新趋势使得云端的工作量更接近网络和用户的边缘。
+有效利用边缘资源需要管理资源，并将用户流量引导到正确的边缘服务器。
+在本文中，我们建议根据用户的兴趣情况对用户进行配置和分组。
+我们认为边缘缓存是一个例子，通过我们的评估显示将用户从同一个组引导到同一个缓存的潜在好处。
+我们调查一系列工作负载和参数，并得出相同的结论。
+我们的研究结果突出了用户分组的重要性，并展示了这种方法的潜在优势。},
+  file     = {2016-acm-Profiling and Grouping Users to Edge Resources According to User Interest Similarity.pdf:2016-acm-Profiling and Grouping Users to Edge Resources According to User Interest Similarity.pdf:PDF},
+  review   = {只看了实验部分
+使用伊卡洛斯作为评估分组性能的模拟器。Icarus是用于评估缓存性能的ICN模拟器[16]
+对于用户兴趣分配函数，我们使用广泛接受的Zipfian分布},
+}
+
+@Article{2016-acm-sigweb-360,
+  author   = {Aleksandr Farseev/National_University_of_Singapore},
+  title    = {360 User Profiling: Past, Future, and Applications},
+  journal  = {SIGWEB Newsletter Summer 2016},
+  year     = {2016},
+  abstract = {通常鼓励社交网络中的用户通过提供年龄，性别，兴趣，收入等个人属性来完成他们的个人资料。
+此外，用户可能会加入专门针对各种主题的利益组织：\ 2016大学毕业生，“新加坡手风琴”等。
+这些配置文件和组通常用作提供更好的在线服务，营销和广告的基础。
+
+然而，实际上，大多数用户不愿意提供实际的个人属性，而团体参与通常与他们的友谊关系而不是利益相关。
+作为解决方案，将探索    个人和组级别的用户分析    ，以挖掘用户的人口统计学和移动性信息。
+
+在本文中，我们将讨论社交网络上不同的用户分析方法，突出挑战，技术和未来趋势。
+我们解释这些方法的弱点和实力，并引入分析平台来弥合社交媒体用户，商业智能和大数据之间的差距},
+  file     = {2016-acm-sigweb-360 user profiling- past, future, and applications.pdf:2016-acm-sigweb-360 user profiling- past, future, and applications.pdf:PDF},
+  review   = {参考文献很有价值
+
+实验分析
+为了演示群体和个人用户分析的适用性，上述许多方法和我们最近开发的技术被集成到一个名为“bBridge”的大型社交多媒体数据分析平台。
+bBridge为企业和公共部门用户提供实时群组分析。
+bBridge是企业和社会部门的有用工具。bBridge的架构如图1所示。
+为了支持所声明的功能，该平台首先基于新的正则化频谱聚类方法（Farseev等，2016）检测用户社区，
+可以执行多层用户关系图的有效分区，这是由异构社交媒体 流：Facebook，Foursquare，Instagram，Twitter和移动轨道。
+
+总结
+在本文中，我们审查了个人和组级别的现有用户个人资料学习方法。
+特别是，我们经历了用户资料学习的流程，相关的挑战以及每个步骤的可能解决方案：数据收集，数据表示，个人和组用户分析。
+然后，我们讨论了研究领域的潜在未来发展趋势，随后引入了一个名为“bBridge”的大型多媒体数据分析平台。该平台用于商业和个人目标。 
+我们鼓励通过贡献我们的多源多模态数据集NUS-MSS9进一步研究用户概况学习，并相信我们的共同努力将有助于进一步迈向360度用户分析。},
+}
+
+@Article{2016-acm-UserProfilinginthe,
+  author   = {Roberto.Gonzalez/NEC.Labs.Europe},
+  title    = {User Profiling in the Time of HTTPS},
+  journal  = {IMC 2016, November 14-16, 2016, Santa Monica, CA, USA},
+  year     = {2016},
+  abstract = {跟踪网站内和网站之间的用户是通过有针对性的广告和大数据分析来获取利益，人口统计类型和其他信息的基础。
+HTTPS的到来应该使得对于任何超出通信端点的人来说，更难以进行分析。在本文中，我们研究了上述情况在多大程度上是真实的。
+
+我们首先通过了解用户访问的域名，无论是通过TLS协议或通过DNS服务器名称指示，窃听者已经可以得到基本分析的信息，尤其是对于其内容是同质域。
+对于依赖于用户访问的特定页面的各种类别的域，例如新闻门户，电子商务站点等，基本分析技术失败。
+然而，通过使用的流量指纹识别仍然可以进行准确的分析网络流量签名来推断用户浏览的确切页面，甚至在HTTPS下。
+我们证明，传输层指纹识别保持稳健可扩展性，尽管存在诸如缓存，不同设备类型的动态内容等障碍。
+总体而言，我们的结果表明，尽管HTTPS使得分析更加困难，但它并没有以任何方式消除它。},
+  file     = {2016-acm-UserProfilinginthe Time of HTTPS.pdf:2016-acm-UserProfilinginthe Time of HTTPS.pdf:PDF},
+  review   = {仅看摘要，从http协议获取信息},
+}
+
+@Article{2016-acm-Firstlearn,
+  author  = {Merkourios Karaliopoulos/Athens_University},
+  title   = {First Learn then Earn: Optimizing Mobile Crowdsensing Campaigns through Data-driven User Profiling},
+  journal = {MobiHoc’16, July 04 - 08, 2016, Paderborn, Germany},
+  year    = {2016},
+  file    = {2016-acm-Firstlearn then earn- optimizing mobile crowdsensing campaigns through data-driven user profiling.pdf:2016-acm-Firstlearn then earn- optimizing mobile crowdsensing campaigns through data-driven user profiling.pdf:PDF},
+}
+
+@Article{alotibi2016,
+  author   = {Gaseb Alotibi/Plymouth_University},
+  title    = {User Profling from Network Traffc via Novel Application-Level Interactions 通过新的应用层交互进行网络流量用户分析},
+  journal  = {ICITST The 11th International Conference for Internet Technology and Secured Transactions (ICITST-2016)},
+  year     = {2016},
+  abstract = {内部滥用已成为组织的重大问题。传统信息安全侧重于来自外部的威胁，而不是员工。
+已经开展了广泛的研究来开发检测内部人员的方法 - 通常被称为数据丢失预防（DLP）工具。
+不幸的是，这些工具的基本限制是它们将解决的信息提供给IP地址而不是人员。
+这假设IP是静态的并且可以链接到个人，这通常不是这种情况。
+由于设备的移动的本质和IP地址的动态分配，IP越来越不可靠。
+本文建立在以前的工作基础上，提出和调查基于生物识别的行为模型，它是从一个新特征提取过程创建的，该过程识别从
+原始网络传输元数据获取的用户的应用程序级交互（例如，不仅仅是他们正在访问Facebook，而是他们是发布，阅读还是观看视频 ）。
+
+它也进行了描述各种类型的可以从应用程序中导出的用户交互。
+该模型的验证是通过在27个参与者的2个月内收集62 GB的元数据进行的。前三名应用Skype，Hotmail和BBC中用户的平均成绩分别为98.1％，96.2％和81.8％},
+  file     = {alotibi2016.pdf:ieee\\alotibi2016.pdf:PDF},
+  review   = {只看了摘要
+该模型的验证是通过在27个参与者的2个月内收集62 GB的元数据进行的},
+}
+
+@Article{yin2016,
+  author   = {Yifang Yin/National_University_of_Singapore},
+  title    = {Encoded Semantic Tree for Automatic UserProfiling Applied to Personalized Video Summarization 用于自动用户分析的 编码语义树 应用于个性化视频摘要},
+  journal  = {SUBMISSION TO IEEE TRANSACTIONS ON CIRCUITS AND SYSTEMS FOR VIDEO TECHNOLOGY 视频类顶刊},
+  year     = {2016},
+  abstract = {我们提出一种创新的方法自动视频摘要生成与个人适应。
+用户兴趣从他们的个人图像集合中挖掘出来。
+为了减少语义差距，我们提出基于新颖的语义树（SeTree）提取视觉表示。SeTree是一个层次结构，可以捕获码本中的视觉场景之间的概念关系。
+这个想法建立在以下观点之上：元素之间的这种语义连接在以前的工作中被忽略。
+为了构建SeTree，我们采用了一个规范化的图形剪切聚类算法，通过结合使用视觉特征，文本信息和社会用户图像连接。
+通过使用这种技术，与现有方法相比，我们在个性化视频段排序中获得了8.1％的归一化折扣累积增益（nDCG）的改善。
+
+此外，为了促进视频的有趣部分，我们提取时空显着图，并通过内核拟合和匹配来估计段的吸引力。
+利用线性函数来组合两个因素，基于该因素，视频的重放速率适合于生成摘要。
+我们以快速模式播放不太重要的细分，以便用户更新上下文。进行了主观实验，表明我们提出的视频摘要方法胜过最先进的技术6.2％},
+  file     = {yin2016.pdf:ieee\\yin2016.pdf:PDF},
+  review   = {视频类},
+}
+
+@Article{wang2016,
+  author   = {Sisi_Wang/University_of_Washington_Tacoma},
+  title    = {VirtualIdentity: Privacy Preserving User Profiling 虚拟身份：隐私保护用户分析},
+  journal  = {ASONAM(EI检索)},
+  year     = {2016},
+  abstract = {用户生成内容（UGC）的用户分析是支持许多社交媒体公司的商业模式的常见做法。
+现有系统要求UGC完全暴露于构建用户配置文件的模块。
+在本文中，我们展示了可以在不访问用户原始数据的情况下构建用户配置文件，
+并且不会向社交媒体网站的用户暴露用于用户分析的受过训练的机器学习模型（作为公司的知识产权）。
+我们提出虚拟身份，一种应用程序，使用安全的多方加密协议来检测用户的年龄，性别和个性特征，通过使用经过训练的支持向量机模型以隐私保护方式对其用户生成的文本和个人图片进行分类},
+  file     = {wang2016.pdf:ieee\\wang2016.pdf:PDF},
+}
+
+@Article{sahil2016,
+  author   = {Sahi/Punjab_Institute_of_Technology_Kapurthala},
+  title    = {Designing and Analysis of User Profiling System forCloud Computing Security using Fuzzy guided Genetic Algorithm 使用模糊引导遗传算法进行云计算安全用户分析系统的设计与分析},
+  journal  = {ICCCA2016},
+  year     = {2016},
+  abstract = {云计算在一方面以按付费方式提供可扩展的虚拟计算资源，以网络服务的形式; 但另一方面，也引起了对环境外部和内部对云环境的安全威胁的担忧。
+现有的安全系统无法承受威胁的动态性质，因此现有的安全系统需要进行某种扩充，这将使安全系统能够以更突出的方式工作。VM之间的攻击在云环境中具有这种威胁。
+用户分析在这种情况下可以通过分析用户的使用模式和从安全系统的这些使用模式提供合理的解释来帮助，然后，安全系统基于这些解释，以反应和主动的方式对分析威胁情况。
+本文是基于我们最后一篇论文的发现，我们发现基于人工智能技术的用户分析系统的设计：模糊和遗传算法单独不足以提供全面的用户分析系统，但可能是可能的 以混合方式使用这两种方法来设计用于云计算安全性的全面的用户分析系统。因此，我们使用混合方法模糊导向遗传算法设计用户分析系统，发现它涵盖了我们以前的工作分析的所有研究差距，甚至完成了评估框架的所有七个原则},
+  file     = {sahil2016.pdf:ieee\\sahil2016.pdf:PDF},
+  review   = {无通用数据},
+}
+
+@Article{paper2015_accepted,
+  author   = {Jens/Lund_University},
+  title    = {User profiling for Pre-fetching or Caching in a Catch-Up TV Network 用户分析在捕捉电视网络中进行预取或缓存},
+  journal  = {BMSB IEEE International Symposium on Broadband Multimedia Systems and Broadcasting},
+  year     = {2016},
+  abstract = {我们调查针对不同用户行为的不同预取和/或缓存策略对于赶上电视网络中的冲浪或浏览的潜力。
+为此，我们分别确定与强或弱冲浪或浏览相关的帐户和渠道，并研究不同类型行为的保留时间分布。
+最后，我们从不同类型行为的请求预测模型和缓存模拟中提出结果，并发现结果相对相似。},
+  file     = {paper2015_accepted.pdf:ieee\\paper2015_accepted.pdf:PDF},
+  review   = {视频类分析},
+}
+
+@Article{pandey2016,
+  author   = {Kriti_Pandey/India},
+  title    = {User Profiling on Tumblr through Blog Posts 通过博客文章分析Tumblr用户},
+  journal  = {ICCTICT},
+  year     = {2016},
+  abstract = {Tumblr是一个微博服务，近期获得了26930万个博客和1259亿个帖子，使其成为创意内容的中心。
+尽管Tumblr自推出以来急剧增长，但并没有做很多学术工作。这项工作是为了在Tumblr的年龄，性别和关系状态方面全面地了解博客。
+本文分析了基于专题分析和写作特征的博客兴趣分类方法。
+
+标准化加权表示最受欢迎的博客类别
+被推断基于专题词和定义的类别相关术语之间的相关性。
+
+训练模型预测用户的年龄，性别和关系状况分别为82.37％，79.61％和76.52％。
+据我们所知，这是第一次尝试在Tumblr上分析用户},
+  file     = {pandey2016.pdf:ieee\\pandey2016.pdf:PDF},
+  review   = {III. DATA COLLECTION 此部分主要介绍了如何获取数据
+在本节中，对本工作的数据收集中部署的方法进行了简要说明，并对所使用的数据集进行了表征。T
+umblr公开提供的API已被用于收集每个数据集，如下文所述的小节所述。
+整个数据收集过程跨越了2015年9月5日至2015年10月12日的38天。
+数据收集是使用Amazon M4 EC2实例完成的，具有32 GB的RAM和8个vCPU。整个数据收集过程在图1中得到了很好的体现。
+
+在Python中编写了一个广泛的第一搜索（BFS）爬虫，用于启动用5个病毒Tumblr博客[20]作为种子的博客的数据收集。
+爬行器首先收集了这些种子的公开暴露的样子反复提取“喜欢喜欢”。在这个过程中，共收集了329,526个博客，我们将其称为“博客”数据集。
+除此之外，还包含所有这些博客的标题和描述的元信息也被收集并存储为博客信息数据集},
+}
+
+@Article{OpenFlow-Enabled,
+  author  = {Taimur_Bakhshi/University_of_Plymouth},
+  title   = {OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks 在校园软件定义网络OpenFlow的启用用户流量剖析},
+  journal = {WiMob},
+  year    = {2016},
+  file    = {OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks.pdf:ieee\\OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks.pdf:PDF},
+  review  = {网络流量方向文章，暂未读},
+}
+
+@Article{kayyali2016,
+  author  = {Reem_Kayyali/Kingston_University},
+  title   = {User Profiling for Coordinated and Integrated Care 用户分析协调和综合护理},
+  journal = {IEEE},
+  year    = {2016},
+  file    = {kayyali2016.pdf:ieee\\kayyali2016.pdf:PDF},
+  review  = {医疗方向},
+}
+
+@Article{fan2016,
+  author   = {Yao-Chung_Fan/National_Chung_Hsing_University},
+  title    = {A Framework for Enabling User Preference Profiling through Wi-Fi Logs},
+  journal  = {ICDE 数据库方向顶会},
+  year     = {2016},
+  abstract = {通过从移动设备收集的Wi-Fi日志来了解用户有两个原始观察。首先，每个Wi-Fi接入点都有一个32位字符串的服务集标识符（SSID）。
+Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网络的网络名称。 SSID通常由设置Wi-Fi网络的用户命名。因此，SSID通常具有语义。
+第二，当用户靠近WiFi接入点时，产生Wi-Fi SSID。连续观察到的SSID的高频意味着在某个地方长时间停留。
+通过这两个观察，我们可以使用带有语义的SSID来推断用户身份和用户偏好等信息。例如，可以从用户每天访问的地方推断用户的占用，例如，研究生可以每个工作日去他/她的实验室。},
+  file     = {fan2016.pdf:ieee\\fan2016.pdf:PDF},
+}
+
+@Article{batthalla2016,
+  author   = {Sainath_Batthalla/Indian},
+  title    = {VoIP Profiler: Profiling Voice Over IP User Communication Behavior VoIP分析器：分析IP语音IP用户通信行为},
+  journal  = {International Conference on Availability, Reliability and Security},
+  year     = {2016},
+  abstract = {了解IP语音（VoIP）通信中的用户行为具有双重优势。它有助于检测异常，并有助于规划VoIP基础架构部署和优化。 
+各种各样的攻击和滥用，如淹没，格式错误的邮件和垃圾信息都会产生异常。
+在本文中，我们提出了VoIP Profiler一种用户级VoIP分析方法。对于分析用户，我们使用VoIP流量识别一组参数并计算每个用户的这些参数的统计信息。
+随后我们使用这些参数对用户进行分类（并检测异常）。
+我们模拟一个企业网络，并用大量的VoIP数据集进行实验，识别不同类型的成功率高的用户。},
+  file     = {batthalla2016.pdf:ieee\\batthalla2016.pdf:PDF},
+  review   = {模拟一个企业网络，并用大量的VoIP数据集进行实验，识别不同类型的成功率高的用户。},
+}
+
+@Article{bakhshi2016,
+  author  = {Taimur_Bakhshi/University_of_Plymouth},
+  title   = {Traffic Profiling: Evaluating Stability in Multi-Device User Environments 流量分析：评估多设备用户环境中的稳定性},
+  journal = {International Conference on Advanced Information Networking and Applications Workshops},
+  year    = {2016},
+  file    = {bakhshi2016.pdf:ieee\\bakhshi2016.pdf:PDF},
+  review  = {普利茅斯大学网络流量方向的文章，暂时未读},
+}
+
+@Article{atote2016,
+  author   = {Bhushan_S._Atote/MAEER},
+  title    = {Personalization in User Profiling:Privacy and Security Issues 个人化用户分析：隐私和安全问题},
+  journal  = {IOTA},
+  year     = {2016},
+  abstract = {由于互联网上数据量的庞大，信息过载的问题越来越多。
+基于用户资料的个性化系统倾向于协助用户进行日常工作
+通过推荐“相关”内容给用户
+基于他以前的网页使用和导航模式。
+这些用户个人资料持有越来越多的关于用户的信息，他的喜欢，不喜欢随着时间的推移了解用户。
+“用户配置文件”的隐私和安全问题变得越来越重要，因为用户配置文件实际上反映了用户本身，尽管是伪形式。},
+  file     = {atote2016.pdf:ieee\\atote2016.pdf:PDF},
+}
+
+@Article{ASONAM16-Gu-et-al-web-user-profiling,
+  author        = {Xiaotao_Gu/Tsinghua},
+  title         = {Web User Profiling using Data Redundancy 使用数据冗余的Web用户分析},
+  journal       = {ASONAM},
+  year          = {2016},
+  __markedentry = {[x:5]},
+  abstract      = {Web用户分析的研究可以追溯到30年前，目的是从非结构化Web中提取“基于语义”的用户配置文件属性。尽管存在微小差异，但一般方法是首先识别特定用户的相关页面，然后使用机器学习模型（例如，CRF）从页面中提取简档属性。然而，随着Web卷的快速增长，这种方法在两个步骤之间遭受数据冗余和错误传播。
+在本文中，我们重新审视了大数据时代的Web用户分析问题，力图应对新的挑战。我们提出了一个简单但非常有效的方法来从Web中提取用户配置文件属性使用大数据。为了避免错误传播，该方法在一个统一模型中处理所有提取子任务。为了进一步结合人类知识来提高提取性能，我们提出了一种马尔科夫逻辑因子图（MagicFG）模型。MagicFG模型将人类知识描述为一级逻辑，并将逻辑组合到提取模型中。我们对真实数据集的实验表明，与几种基线方法相比，所提出的方法显着提高了提取性能（+ 4-6％; p = 0：01，t检验）。},
+  file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+},
+  keywords      = {rank5},
+  review        = {密切相关，机器学习算法 分类 关联
+ 
+给定一个人v，被称为查询人，我们的目标是提取个人的个人资料属性，并构建研究人员资料。例如，在学术搜索系统中，研究人员简介包括位置，图片，地址，电话，电子邮件，主页，研究兴趣等。详细的定义可以在[5]中找到。我们的目标是设计一种从网络中高精度地自动提取配置文件属性的通用方法。该方法还应具有足够的灵活性以扩展以处理新的配置文件属性。
+
+对于分类属性，我们通过自动识别每个候选类别中的代表性关键字构建查询，并将它们组合在一起作为查询。要找到每个类别的代表性关键字，我们首先从AMiner和LinkedIn等专业网站收集每个类别的几个人名（例如1000）。然后，我们将相应的人名作为查询提交给像Google这样的搜索引擎，以获取top-k（例如10个）片段。在片段中的所有单词中，我们将最具代表性的关键字识别为具有最高TF-IDF分数的关键词
+
+网页搜索研究人员信息
+为了构建定量评估的基本真实数据集，我们从AMiner.org [9]随机选择了2,000名研究人员。具体来说，为了提取每个研究人员的电子邮件，我们通过查询人名和单词“电子邮件”来搜索网页。这样可以得到4,528个电子邮件候选人。应用人体注释来识别正确的电子邮件地址。以类似的方式推断性别，我们通过查询人名和单词“他”或“她”来搜索网页。还进行了人类注释，以确定这2,000名研究人员的性别。对于注释中的分歧，我们进行了“多数投票”。最后，对于2000名研究人员，我们确定了34％的研究人员是女性研究人员; 约40％的电子邮件候选人是正确的电子邮件，这意味着我们的框架可以为超过90％的用户找到正确的电子邮件。},
+}
+
+@Article{2016-acm-User-Profiling-through-NFC,
+  author  = {Anders_Andersen/Norway},
+  title   = {User Profiling through NFC interactions:Mining NFC-based User Information from Mobile Devices and Back-end System},
+  journal = {MobiWac’16, November 13-17 2016, Malta, Malta},
+  year    = {2016},
+  file    = {2016-acm-User-Profiling-through-NFC interactions--- Mining NFC-based User Information from Mobile Devices and Back-end Systems.pdf:2016-acm-User-Profiling-through-NFC interactions--- Mining NFC-based User Information from Mobile Devices and Back-end Systems.pdf:PDF},
+  review  = {基于NFC的用户分析},
+}
+
+@Article{2016-arxiv-User,
+  author  = {Alan_Ferrari/Switzerland},
+  title   = {Building accurate HAV exploiting User Profiling and Sentiment Analysis},
+  journal = {none},
+  year    = {2016},
+  file    = {2016-arxiv-User Profiling in the Time of HTTPS.pdf:2016-arxiv-User Profiling in the Time of HTTPS.pdf:PDF},
+  review  = {Publicly available Software API that the majority social
+network offers to access their data programmatically are used
+to collect social-information},
+}
+
+@Article{2016-atlantis-User,
+  author  = {Murad_Ali/Pakistan},
+  title   = {User Profiling Through Browser Finger Printing},
+  journal = {RACS International Conference on Recent Advances in Computer Systems},
+  year    = {2015},
+  file    = {2016-atlantis-User Profiling Through Browser Finger Printing.pdf:2016-atlantis-User Profiling Through Browser Finger Printing.pdf:PDF},
+  review  = {基于浏览痕迹进行用户分析
+自行收集数据},
+}
+
+@Article{2017-springer-Second,
+  author   = {Angelos_Valsamis/Athens},
+  title    = {Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs},
+  journal  = {SETE 2016, LNCS 10108},
+  year     = {2017},
+  abstract = {在社交电视的背景下，第一和第二屏幕用户的日益普及，在线互动和发布内容，展示了新的业务机会和相关的技术挑战，以丰富用户在这种环境中的体验。SAM（社交环绕媒体）项目使用社交媒体连接的基础设施来应对上述挑战，提供智能用户上下文管理模型和机制捕获社会模式，应用协同过滤技术和个性化建议朝这个方向发展。本文介绍了SAM的上下文管理机制，运行在社交电视环境中，为第一和第二屏幕内容提供智能建议。所提供的工作使用在线查找的实际电影评级数据集进行评估，以验证SAM的有效性和效率方法。},
+  file     = {2017-springer-Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs.pdf:2017-springer-Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs.pdf:PDF},
+}
+
+@Article{新浪微博数据挖掘方案_廉捷,
+  author   = {廉捷},
+  title    = {新浪微博数据挖掘方案},
+  journal  = {清华大学学报 (自然科学版)},
+  year     = {2011},
+  file     = {新浪微博数据挖掘方案_廉捷.pdf:新浪微博数据挖掘方案_廉捷.pdf:PDF},
+  keywords = {rank2},
+  review   = {简介API与爬虫},
+}
+
+@Article{2016-springer-Efficient,
+  author   = {S. Berretti},
+  title    = {Efficient User Profiling in Twitter Social Network Using Traditional Classifiers},
+  journal  = {Intelligent Systems Technologies and Applications},
+  year     = {2016},
+  abstract = {如果参与讨论的人与一个领域有关，社交媒体的任何讨论都会有成果。以类似的方式宣传活动，查找对活动内容感兴趣的用户很有用。在包含大量用户的Twitter等社交网络中，根据用户的兴趣对用户进行分类将有助于此原因。本文提出了一种有效的监督机器学习方法，它将Twitter用户基于三个重要特征（基于Twitter的，基于用户的和基于时间的系列）分为六个兴趣类别 - 政治，娱乐，创业，新闻，科学与医疗 。我们将提出的特征集与支持向量机，朴素贝叶斯，k最近邻，决策树和逻辑回归等不同的传统分类器进行比较，并获得高达89.82％的分类精度。我们还提出了一个用于Twitter用户分析的实时系统的设计以及原型实现},
+  file     = {2016-springer-Efficient User Profiling in Twitter Social Network Using Traditional Classifiers.pdf:2016-springer-Efficient User Profiling in Twitter Social Network Using Traditional Classifiers.pdf:PDF},
+}
+
+@Article{14354237257139HI2QBQJLI,
+  author        = {Yutao_Zhang},
+  title         = {COSNET: Connecting Heterogeneous Social Networks with Local and Global Consistency COSNET：连接异构社会网络与本地和全球一致性},
+  journal       = {KDD},
+  year          = {2015},
+  __markedentry = {[x:5]},
+  abstract      = {人们往往活跃在不止一个社交网络中。 从多个异构社交网络中识别用户并集成不同的网络是许多应用程序的根本问题。 现有方法通过估计两个网络中的用户之间的成对相似性来解决这个问题。 然而，这些方法存在多个网络之间的匹配潜在的不一致。在本文中，我们提出了COSNET（通过本地和全球一致性连接异构社交NETworks），一种新型的基于能量的模型，通过考虑多个网络之间的本地和全局一致性来解决这个问题。开发了一种有效的子梯度算法，通过将原有的基于能量的目标函数转化为双重形式来训练模型。我们对两种不同类型的数据收集模型进行评估：SNS和学术界，每个都由多个异构社会网络组成。我们的实验结果验证了提出的模型的有效性和效率。在两个数据收集中，拟议的COSNET方法在F1分数方面显着优于多种替代方法，高达10-30％（p <0：001，t检验）。我们还表明，应用我们的方法产生的整合结果可以提高专家发现的准确性，这是社交网络中的一项重要任务。},
+  file          = {14354237257139HI2QBQJLI.pdf:14354237257139HI2QBQJLI.pdf:PDF},
+  keywords      = {rank5},
+  review        = {链接特定用户不同社交网络账户
+美国的一项调查显示，三分之二的在线成人（66％）使用社交媒体平台，如Facebook，Twitter，MySpace或LinkedIn，以保持联系目前的朋友，家人和商业伙伴。用户生成异构内容，并在不同的社交网络中建立不同的自我网络。一个有趣和重要的问题是：我们可以自动将不同的异构社交网络整合在一起吗？
+用户的行为是一个重要的线索（也称为社交指纹[40]  ###p41### ），以帮助识别不同网络中的用户。
+如果我们使用相似度s（u; v）; u 2 G1; v 2 G2在用户之间链接来自两个不同网络（G1和G2）的用户，该问题可以被形式化为一个优化问题：maxΣu; v s（u; v）。通过使用最小成本流算法可以有效解决问题[1,34]。
+
+
+现在我们解释为什么定义的能量函数在方程式 1可以利用网络匹配的想法。假设“邻域保留匹配”的原则在现实世界的数据集中是有效的。在我们从训练数据中学习模型参数后，yi和yj的权重相同，将很低。对于测试集，如果在匹配图中连接了两个用户对，如果分配相同的标签，模型能量将会很低。因此，通过网络匹配能量模型的定义在等式 1，我们倾向于为匹配图中的邻居分配相同的标签，以最小化模型能量。},
+}
+
+@Article{p41,
+  author   = {Reza_Zafarani and Huan Liu},
+  title    = {Connecting Users across Social Media Sites: A Behavioral-Modeling Approach},
+  journal  = {KDD},
+  year     = {2013},
+  abstract = {人们为了不同的目的使用各种社交媒体。个别网站上的信息通常不完整。当补充信息的来源被整合时，可以建立更好的用户简档来改善在线服务，例如验证在线信息。要整合这些信息来源，有必要在社交媒体网站上识别个人。本文旨在解决跨媒体用户识别问题。我们介绍一种方法（MOBIUS），用于在社交媒体网站上查找个人身份的映射。它由三个关键组件组成：第一个组件识别用户的独特行为模式，导致跨站点的信息冗余;第二个组件构造了由于这些行为模式而利用信息冗余的特征;第三个组件采用机器学习进行有效的用户识别。我们正式定义跨媒体用户识别问题，并显示MOBIUS有效地识别跨社交媒体网站的用户。这项研究为跨社交媒体网站的分析和挖掘铺平了道路，并有助于跨网站创建新颖的在线服务。},
+  file     = {p41.pdf:p41.pdf:PDF},
+  review   = {用户跨媒体多账户识别  虚假信息识别 用户的行为是一个重要的线索（也称为社交指纹[本文]），以帮助识别不同网络中的用户。
+当提供虚假信息（例如，不正确的年龄）时，可能会在各个站点之间产生信息不一致。检测这些不一致可以帮助提供解决年龄验证问题的第一线安全性。检测这些不一致之处的一种方法是开始将用户的不同身份连接到社交媒体网站。
+
+在社交媒体网站上连接用户身份并不是一件简单的工作。主要障碍是跨不同站点的用户身份之间的连接通常不可用。这种断开发生，因为大多数网站通过允许用户自由选择用户名而不是其真实身份，并且还因为不同的网站使用不同的用户命名和身份验证系统来保持用户的匿名性。此外，网站很少将其用户帐户与其他网站链接，或采用OpenID等单点登录技术，用户可以使用单一用户名登录到不同的网站（例如，用户可以使用其Gmail帐户登录Google+和YouTube）。无论如何，在不同站点之间存在用户名之间的映射，连接其背后的真实身份。我们可以找到这个映射吗？
+
+在本文中，我们引入了一种方法（MOBIUS），用于查找跨社交媒体网站的身份之间的映射。我们的方法是基于用户在社交媒体中展示的行为模式，并且源于社会学和心理学的行为理论。由于环境，人格甚至人为的限制，独特的行为可以在社交媒体网站上创建冗余信息。我们的方法利用这种冗余来识别跨社交媒体网站的用户。我们使用站点之间可用的最少信息量。
+
+第2节在社交媒体网站上正式呈现用户识别问题。第3节描述了用户可以利用社交媒体展示用户识别技术的行为模式。第4节详细说明了识别相应身份的实验，其次是第5节的相关工作。第6节总结了本研究的未来工作方向},
+}
+
+@Article{10.1.1.187.1082,
+  author   = {Jie Tang},
+  title    = {A Combination Approach to Web User Proflling},
+  journal  = {KDD},
+  year     = {2010},
+  file     = {10.1.1.187.1082.pdf:10.1.1.187.1082.pdf:PDF;10.1.1.187.1082.docx:10.1.1.187.1082.docx:Word 2007+},
+  keywords = {rank5},
+}
+
+@Article{hanxianpei,
+  author   = {Xianpei Han},
+  title    = {A Generative Entity-Mention Model for Linking Entities with Knowledge Base},
+  journal  = {HLT '11},
+  year     = {2011},
+  file     = {hanxianpei.pdf:实体\\hanxianpei.pdf:PDF;hanxianpei.docx:实体\\hanxianpei.docx:Word 2007+},
+  keywords = {rank3},
+}
+
+@Article{TKDE16-Song-et-al-influential-user-finding,
+  author   = {Guojie Song, Yuanhao Li, Xiaodong Chen, Xinran He and Jie Tang},
+  title    = {Influential Node Tracking on Dynamic Social Network: An Interchange Greedy Approach},
+  journal  = {TKDE},
+  year     = {2016},
+  file     = {TKDE16-Song-et-al-influential-user-finding.pdf:TKDE16-Song-et-al-influential-user-finding.pdf:PDF;TKDE16-Song-et-al-influential-user-finding.docx:TKDE16-Song-et-al-influential-user-finding.docx:Word 2007+},
+  keywords = {rank5},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
