@@ -302,7 +302,7 @@ Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网
   title         = {Web User Profiling using Data Redundancy 使用数据冗余的Web用户分析},
   journal       = {ASONAM},
   year          = {2016},
-  __markedentry = {[x:5]},
+  __markedentry = {[x:]},
   abstract      = {Web用户分析的研究可以追溯到30年前，目的是从非结构化Web中提取“基于语义”的用户配置文件属性。尽管存在微小差异，但一般方法是首先识别特定用户的相关页面，然后使用机器学习模型（例如，CRF）从页面中提取简档属性。然而，随着Web卷的快速增长，这种方法在两个步骤之间遭受数据冗余和错误传播。
 在本文中，我们重新审视了大数据时代的Web用户分析问题，力图应对新的挑战。我们提出了一个简单但非常有效的方法来从Web中提取用户配置文件属性使用大数据。为了避免错误传播，该方法在一个统一模型中处理所有提取子任务。为了进一步结合人类知识来提高提取性能，我们提出了一种马尔科夫逻辑因子图（MagicFG）模型。MagicFG模型将人类知识描述为一级逻辑，并将逻辑组合到提取模型中。我们对真实数据集的实验表明，与几种基线方法相比，所提出的方法显着提高了提取性能（+ 4-6％; p = 0：01，t检验）。},
   file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+},
@@ -414,7 +414,7 @@ to collect social-information},
   title         = {A Combination Approach to Web User Proflling},
   journal       = {KDD},
   year          = {2010},
-  __markedentry = {[x:5]},
+  __markedentry = {[x:]},
   file          = {10.1.1.187.1082.pdf:10.1.1.187.1082.pdf:PDF;10.1.1.187.1082.docx:10.1.1.187.1082.docx:Word 2007+},
   keywords      = {rank5},
 }
@@ -458,6 +458,75 @@ to collect social-information},
   file     = {klinKDD16.pdf:klinKDD16.pdf:PDF},
   keywords = {rank3},
   review   = {机器学习相关},
+}
+
+@Article{07883890,
+  author   = {Shuo Shang},
+  title    = {Searching Trajectories by Regions of Interest},
+  journal  = {TKDE},
+  year     = {2016},
+  abstract = {随着移动物体跟踪数据的可用性的增加，轨迹搜索越来越重要。我们提出并调查一个新兴的查询类型命名轨迹搜索按感兴趣区域（TSR查询）。给出一组轨迹的参数，TSR查询将一组感兴趣区域作为参数，并将具有最高空间密度相关性的参数集中的轨迹返回到查询区域。这种类型的查询在许多流行的应用中是有用的，例如旅行计划和推荐以及基于位置的服务。TSR查询处理面临三大挑战：如何建模空间密度相关在查询区域和数据轨迹之间，如何有效地修剪搜索空间，以及如何有效地调度多个所谓的查询源。为了解决这些挑战，定义了一系列新的度量标准来模拟空间密度相关性。一种高效的轨迹搜索算法被开发利用上限和下限来修剪搜索空间，并采用查询源选择策略，并集成了基于优先级排序的启发式搜索策略来安排多个查询源。基于真实和合成空间数据的广泛实验研究了TSR查询处理的性能。},
+  file     = {07883890.pdf:07883890.pdf:PDF},
+  keywords = {rank1},
+  review   = {按兴趣区搜索轨迹  出租车轨迹兴趣搜索},
+}
+
+@Article{chen2016,
+  author   = {Lu Chen},
+  title    = {Efficient Metric Indexing for Similarity Search and Similarity Joins},
+  journal  = {TKDE},
+  year     = {2016},
+  abstract = {包括相似搜索和相似性连接在内的空间查询在许多领域都是有用的，如多媒体检索，数据集成等。但是，它们不被商业DBMS支持。这可能是由于所涉及的复杂数据类型以及灵活相似性标准的需求在实际应用中看到。在本文中，我们提出用于度量数据的多功能和高效的基于磁盘的索引，空格填充曲线和基于Pivot的B +树（SPB树）。该指标利用B +树，并使用空间填充曲线将数据聚类成紧凑区域，从而实现存储效率。它使用一小组所谓的枢轴来显着减少使用索引时距离计算的次数。},
+  file     = {chen2016.pdf:chen2016.pdf:PDF},
+  keywords = {rank1},
+}
+
+@Article{150308542,
+  author        = {Junyu Xuan},
+  title         = {Nonparametric Relational Topic Models through Dependent Gamma Processes},
+  journal       = {TKDE},
+  year          = {2017},
+  __markedentry = {[x:1]},
+  abstract      = {传统的关系主题模型提供了从文档网络中发现隐藏的主题的成功方法。许多理论和实践的任务，如降维，文本聚类，链接预测，可能会受益于这一发现的知识。然而，现有的关系主题模型是基于一个假设，隐藏的主题的数量是先验已知的，这在许多现实世界的应用程序中是不切实际的。因此，为了放宽这一假设，本文提出了一种使用随机过程而不是固定维概率分布的非参数关系主题模型。具体来说，每个文档都被分配一个Gamma进程，它代表本文档的主题兴趣。虽然这种方法提供了一个很好的解决方案，当对典型文档网络的固有网络结构进行数学建模（即，两个空间密切的文档）倾向于具有更多相似的主题时，它带来了额外的挑战。此外，我们要求所有文件共享主题。为了解决这些挑战，我们使用子采样策略将每个文档与全局伽马进程分配不同的伽马进程，并且文档的子采样概率被分配有继承文档网络结构的马尔可夫随机场约束。通过设计的后推理算法，我们可以同时发现隐藏的主题及其数量。合成和现实网络数据集的实验结果表明了学习隐藏主题的能力，更重要的是主题数量},
+  file          = {150308542.pdf:150308542.pdf:PDF},
+}
+
+@Article{社区热点微博推荐研究_彭泽环,
+  author        = {韩先培},
+  title         = {社区热点微博推荐研究},
+  journal       = {计算机研究与发展},
+  year          = {2015},
+  __markedentry = {[x:]},
+  file          = {社区热点微博推荐研究_彭泽环.pdf:社区热点微博推荐研究_彭泽环.pdf:PDF},
+}
+
+@Article{07857065,
+  author        = {Fangzhao Wu},
+  title         = {Collaboratively Training Sentiment Classifiers for Multiple Domains},
+  journal       = {TKDE},
+  year          = {2017},
+  __markedentry = {[x:1]},
+  abstract      = {我们提出了一种协同多域情绪分类方法来同时训练多个域的情绪分类器。在我们的方法中，不同领域的情绪信息被共享，以便在标记数据稀缺时为每个领域培养更准确和更强大的情绪分类器。具体来说，我们将每个域的情感分类器分解成两个组件，一个是全局的，一个是域特定的。全局模型可以捕捉一般的情绪知识，并通过不同的域共享。},
+  file          = {07857065.pdf:07857065.pdf:PDF},
+}
+
+@Article{07883865,
+  author        = {Qi Fan},
+  title         = {Discovering Newsworthy Themes from Sequenced Data: A Step Towards Computational Journalism 从序列数据发现新闻价值主题：迈向计算新闻学的一步},
+  journal       = {TKDE},
+  year          = {2017},
+  __markedentry = {[x:1]},
+  abstract      = {从有序数据自动发现有新闻价值的主题可以减轻记者手动浏览大量数据，以便找到有趣的消息。在本文中，我们提出了一个新颖的k-Sketch查询，旨在找到k条条纹，以最好地总结一个主题。我们的打分功能同时考虑到连续打击和连续覆盖。我们在离线和在线情况下研究k-Sketch查询处理，并提出各种条纹级修剪技术来查找候选人。在这些候选人中，我们然后开发大致的方法来发现具有理论界限的k个最具代表性的条纹。我们对四个实际数据集进行实验，结果表明我们提出的算法的效率和有效性：运行时间达到高达500倍的速度，生成的摘要的质量由Amazon Mechanical Turk的匿名用户认可。},
+  file          = {07883865.pdf:07883865.pdf:PDF},
+}
+
+@Article{streak-tkdd,
+  author        = {GENSHENG ZHANG},
+  title         = {Discovering General Prominent Streaks in Sequence Data},
+  journal       = {KDD},
+  year          = {2014},
+  __markedentry = {[x:1]},
+  file          = {streak-tkdd.pdf:streak-tkdd.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
