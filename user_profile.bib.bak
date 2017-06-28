@@ -539,11 +539,12 @@ to collect social-information},
 }
 
 @Article{07551120,
-  author  = {Konstantinos Georgoulas},
-  title   = {User-Centric Similarity Search},
-  journal = {TKDE},
-  year    = {2017},
-  file    = {07551120.pdf:07551120.pdf:PDF},
+  author        = {Konstantinos Georgoulas},
+  title         = {User-Centric Similarity Search},
+  journal       = {TKDE},
+  year          = {2017},
+  __markedentry = {[x:1]},
+  file          = {07551120.pdf:07551120.pdf:PDF;07551120.docx:07551120.docx:Word 2007+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
