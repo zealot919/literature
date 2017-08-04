@@ -1,9 +1,12 @@
-Exception in thread "AWT-EventQueue-0" java.lang.ArithmeticException: / by zero
-	at net.sf.jabref.gui.maintable.MainTable$TableKeyListener.keyPressed(MainTable.java:662)
-	at java.awt.AWTEventMulticaster.keyPressed(Unknown Source)
-	at java.awt.AWTEventMulticaster.keyPressed(Unknown Source)
-	at java.awt.AWTEventMulticaster.keyPressed(Unknown Source)
-	at java.awt.Component.processKeyEvent(Unknown Source)
+Exception in thread "AWT-EventQueue-0" java.lang.IllegalStateException: cannot open system clipboard
+	at sun.awt.windows.WClipboard.openClipboard(Native Method)
+	at sun.awt.datatransfer.ClipboardTransferable.<init>(Unknown Source)
+	at sun.awt.datatransfer.SunClipboard.getContents(Unknown Source)
+	at net.sf.jabref.gui.ClipBoardManager.getClipboardContents(ClipBoardManager.java:58)
+	at net.sf.jabref.gui.actions.PasteAction.actionPerformed(PasteAction.java:29)
+	at javax.swing.SwingUtilities.notifyAction(Unknown Source)
+	at javax.swing.JComponent.processKeyBinding(Unknown Source)
+	at javax.swing.JComponent.processKeyBindings(Unknown Source)
 	at javax.swing.JComponent.processKeyEvent(Unknown Source)
 	at java.awt.Component.processEvent(Unknown Source)
 	at java.awt.Container.processEvent(Unknown Source)
