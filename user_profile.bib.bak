@@ -567,10 +567,44 @@ to collect social-information},
 }
 
 @Article{组推荐系统及其应用研究_张玉洁,
-  author  = {张玉洁},
-  title   = {组推荐系统及其应用研究},
-  journal = {计算机学报},
-  year    = {2016},
+  author        = {张玉洁},
+  title         = {组推荐系统及其应用研究},
+  journal       = {计算机学报},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  file          = {组推荐系统及其应用研究_张玉洁.pdf:组推荐系统及其应用研究_张玉洁.pdf:PDF},
+  keywords      = {rank5},
+}
+
+@Article{NBPLFM,
+  author        = {Nipa Chowdhury},
+  title         = {Nonparametric Bayesian Probabilistic Latent Factor Model for Group Recommender Systems 用于组推荐系统的非参数贝叶斯概率潜在因子模型},
+  journal       = {wise2016},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  abstract      = {在线网络的爆炸式鼓励在线用户参与小组活动。组推荐系统对于根据其常见偏好向一组用户推荐项目至关重要。然而，现有的组推荐系统不会利用组内的用户交互，只适用于具有固定大小的用户的组和组成员之间相同级别的组，这显着限制了其在现实世界中的使用。在本文中，我们提出了一种新颖的非参数贝叶斯概率潜在因子模型，通过利用一组中的用户交互来了解集体用户的群体推荐的品味和偏好，从而能够很好地处理各种群体大小和相似度。我们在三个公开的基准数据集上评估开发的模型。实验结果表明，我们的方法优于组推荐的所有基线方法。},
+  file          = {NBPLFM.pdf:NBPLFM.pdf:PDF},
+  review        = {Matrix factorization techniques for recommender systems},
+}
+
+@Article{PDF_Final_Matrix_Factorization,
+  author        = {Patrick Seemann},
+  title         = {Matrix Factorization Techniques for Recommender Systems},
+  journal       = {PPT},
+  year          = {2014},
+  __markedentry = {[windows:]},
+  file          = {PDF_Final_Matrix_Factorization.pdf:PDF_Final_Matrix_Factorization.pdf:PDF},
+  keywords      = {rank5},
+}
+
+@Article{koren2009,
+  author        = {Yehuda Koren},
+  title         = {Matrix Factorization Techniques for Recommender Systems},
+  journal       = {COMPUTER},
+  year          = {2009},
+  __markedentry = {[windows:5]},
+  file          = {koren2009.pdf:koren2009.pdf:PDF},
+  keywords      = {rank5},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
