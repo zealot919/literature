@@ -176,7 +176,7 @@ HTTPS的到来应该使得对于任何超出通信端点的人来说，更难以
 在本文中，我们展示了可以在不访问用户原始数据的情况下构建用户配置文件，
 并且不会向社交媒体网站的用户暴露用于用户分析的受过训练的机器学习模型（作为公司的知识产权）。
 我们提出虚拟身份，一种应用程序，使用安全的多方加密协议来检测用户的年龄，性别和个性特征，通过使用经过训练的支持向量机模型以隐私保护方式对其用户生成的文本和个人图片进行分类},
-  file     = {wang2016.pdf:ieee\\wang2016.pdf:PDF},
+  file     = {wang2016.pdf:ieee\\wang2016.pdf:PDF;wang2016.pdf:wang2016.pdf:PDF},
 }
 
 @Article{sahil2016,
@@ -305,7 +305,7 @@ Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网
   __markedentry = {[x:]},
   abstract      = {Web用户分析的研究可以追溯到30年前，目的是从非结构化Web中提取“基于语义”的用户配置文件属性。尽管存在微小差异，但一般方法是首先识别特定用户的相关页面，然后使用机器学习模型（例如，CRF）从页面中提取简档属性。然而，随着Web卷的快速增长，这种方法在两个步骤之间遭受数据冗余和错误传播。
 在本文中，我们重新审视了大数据时代的Web用户分析问题，力图应对新的挑战。我们提出了一个简单但非常有效的方法来从Web中提取用户配置文件属性使用大数据。为了避免错误传播，该方法在一个统一模型中处理所有提取子任务。为了进一步结合人类知识来提高提取性能，我们提出了一种马尔科夫逻辑因子图（MagicFG）模型。MagicFG模型将人类知识描述为一级逻辑，并将逻辑组合到提取模型中。我们对真实数据集的实验表明，与几种基线方法相比，所提出的方法显着提高了提取性能（+ 4-6％; p = 0：01，t检验）。},
-  file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+},
+  file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+;ASONAM16-Gu-et-al-web-user-profiling.docx:ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+},
   keywords      = {rank5},
   review        = {密切相关，机器学习算法 分类 关联
  
@@ -627,8 +627,26 @@ to collect social-information},
 }
 
 @Article{qian2017cscw,
-  journal = {CSCW '17},
-  file    = {qian2017cscw.pdf:qian2017cscw.pdf:PDF},
+  journal  = {CSCW '17},
+  abstract = {目前的推荐系统通常会一再显示出同样最重要的推荐项目，忽略用户既不评价也不点击这些项目的反馈。
+我们进行在线实地实验，以测试两种操作前N条建议的方法，目的是提高用户体验：根据过去的表现循环顶级N建议，并将最佳N列表列入混合最佳项目到稍后的推荐请求。
+我们在选择退出和活动之间发现有趣的紧张关系，用户感觉到的准确性和新鲜度。
+同一会议中的循环可能是“爱或恨它”推荐的财产，因为其中的用户具有较高的选择退出率，但从事更多的活动。
+跨越会话和蛇纹循环，增加用户活动，而不会显着影响选择退出率。
+用户感觉到更多的变化和新鲜度，但更少的准确性和熟悉度。
+组合骑自行车和蛇形化不能单独进行每个单独的操作。
+这两种操作方式在顶级列表中显示出一些有吸引力的属性，但也要求创新方法来克服潜在的成本。},
+  file     = {qian2017cscw.pdf:qian2017cscw.pdf:PDF},
+}
+
+@Article{1-s2.0-S0950705116001027-main,
+  author        = {Hongbing Wang/Southeast_University},
+  title         = {Preference recommendation for personalized search},
+  journal       = {KBS/ccf_c类},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  abstract      = {条件优先网络（CP网络）被广泛用于表达定性偏好。由于用户有时不愿意或不能指定完整的CP网络，因此禁止个性化搜索被有效地进行。在本文中，我们提出一种使用不完整CP网络执行个性化搜索的方法。我们提出了一种用于补充用户CP网络的偏好推荐方案，以提高个性化搜索的准确性。我们进行了广泛的模拟和用户研究，以证明我们的方法的有效性。},
+  file          = {1-s2.0-S0950705116001027-main.pdf:1-s2.0-S0950705116001027-main.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
