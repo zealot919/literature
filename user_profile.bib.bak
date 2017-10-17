@@ -746,12 +746,22 @@ GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种�
 }
 
 @Article{550,
-  author  = {Keqiang Wang},
-  title   = {Bayesian Probabilistic Multi-Topic Matrix Factorization for Rating Prediction},
-  journal = {IJCAI人工智能顶会},
-  year    = {2016},
-  file    = {550.pdf:550.pdf:PDF},
-  groups  = {矩阵分解系列},
+  author        = {Keqiang Wang},
+  title         = {Bayesian Probabilistic Multi-Topic Matrix Factorization for Rating Prediction},
+  journal       = {IJCAI人工智能顶会},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  file          = {550.pdf:550.pdf:PDF;550.docx:550.docx:Word 2007+},
+  groups        = {矩阵分解系列},
+}
+
+@Article{adf0066-zhangA,
+  author        = {Fuzheng Zhang},
+  title         = {Collaborative Knowledge Base Embedding for Recommender Systems},
+  journal       = {KDD},
+  year          = {2016},
+  __markedentry = {[windows:5]},
+  file          = {adf0066-zhangA.pdf:adf0066-zhangA.pdf:PDF;adf0066-zhangA.docx:adf0066-zhangA.docx:Word 2007+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
