@@ -512,13 +512,13 @@ to collect social-information},
 }
 
 @Article{07883865,
-  author        = {Qi Fan},
-  title         = {Discovering Newsworthy Themes from Sequenced Data: A Step Towards Computational Journalism 从序列数据发现新闻价值主题：迈向计算新闻学的一步},
-  journal       = {TKDE},
-  year          = {2017},
-  __markedentry = {[windows:1]},
-  abstract      = {从有序数据自动发现有新闻价值的主题可以减轻记者手动浏览大量数据，以便找到有趣的消息。在本文中，我们提出了一个新颖的k-Sketch查询，旨在找到k条条纹，以最好地总结一个主题。我们的打分功能同时考虑到连续打击和连续覆盖。我们在离线和在线情况下研究k-Sketch查询处理，并提出各种条纹级修剪技术来查找候选人。在这些候选人中，我们然后开发大致的方法来发现具有理论界限的k个最具代表性的条纹。我们对四个实际数据集进行实验，结果表明我们提出的算法的效率和有效性：运行时间达到高达500倍的速度，生成的摘要的质量由Amazon Mechanical Turk的匿名用户认可。},
-  file          = {07883865.pdf:07883865.pdf:PDF},
+  author   = {Qi Fan},
+  title    = {Discovering Newsworthy Themes from Sequenced Data: A Step Towards Computational Journalism 从序列数据发现新闻价值主题：迈向计算新闻学的一步},
+  journal  = {TKDE},
+  year     = {2017},
+  abstract = {从有序数据自动发现有新闻价值的主题可以减轻记者手动浏览大量数据，以便找到有趣的消息。在本文中，我们提出了一个新颖的k-Sketch查询，旨在找到k条条纹，以最好地总结一个主题。我们的打分功能同时考虑到连续打击和连续覆盖。我们在离线和在线情况下研究k-Sketch查询处理，并提出各种条纹级修剪技术来查找候选人。在这些候选人中，我们然后开发大致的方法来发现具有理论界限的k个最具代表性的条纹。我们对四个实际数据集进行实验，结果表明我们提出的算法的效率和有效性：运行时间达到高达500倍的速度，生成的摘要的质量由Amazon Mechanical Turk的匿名用户认可。},
+  file     = {07883865.pdf:07883865.pdf:PDF},
+  keywords = {rank3},
 }
 
 @Article{streak-tkdd,
@@ -603,7 +603,7 @@ to collect social-information},
   title         = {Matrix Factorization Techniques for Recommender Systems},
   journal       = {COMPUTER},
   year          = {2009},
-  __markedentry = {[windows:]},
+  __markedentry = {[windows:5]},
   file          = {koren2009.pdf:koren2009.pdf:PDF;koren2009.docx:koren2009.docx:Word 2007+},
   groups        = {矩阵分解系列},
   keywords      = {rank5},
@@ -662,12 +662,13 @@ https://grouplens.org/ 研究者网站
 }
 
 @Article{lee_icml_2013,
-  author  = {Joonseok Lee},
-  title   = {Local Low-Rank Matrix Approximation},
-  journal = {ICML},
-  year    = {2013},
-  file    = {lee_icml_2013.pdf:lee_icml_2013.pdf:PDF;lee_icml_2013.docx:lee_icml_2013.docx:Word 2007+},
-  groups  = {矩阵分解系列},
+  author        = {Joonseok Lee},
+  title         = {Local Low-Rank Matrix Approximation},
+  journal       = {ICML},
+  year          = {2013},
+  __markedentry = {[windows:1]},
+  file          = {lee_icml_2013.pdf:lee_icml_2013.pdf:PDF;lee_icml_2013.docx:lee_icml_2013.docx:Word 2007+},
+  groups        = {矩阵分解系列},
 }
 
 @Article{基于评分矩阵局部低秩假设的成列协同排名算法_刘海洋,
@@ -682,23 +683,25 @@ https://grouplens.org/ 研究者网站
 }
 
 @Article{sun_sigir13quan,
-  author  = {Quan Yuan_Nanyang_Technological_University,_Singapore},
-  title   = {Time-aware Point-of-interest Recommendation},
-  journal = {SIGIR},
-  year    = {2013},
-  file    = {sun_sigir13quan.pdf:sun_sigir13quan.pdf:PDF},
-  groups  = {矩阵分解系列},
-  review  = {2017 王克强所用数据源},
+  author        = {Quan Yuan_Nanyang_Technological_University,_Singapore},
+  title         = {Time-aware Point-of-interest Recommendation},
+  journal       = {SIGIR},
+  year          = {2013},
+  __markedentry = {[windows:1]},
+  file          = {sun_sigir13quan.pdf:sun_sigir13quan.pdf:PDF},
+  groups        = {矩阵分解系列},
+  review        = {2017 王克强所用数据源},
 }
 
 @Article{art%3A10.1007%2Fs41019-017-0032-6,
-  author  = {Keqiang Wang},
-  title   = {Local Weighted Matrix Factorization for Top-n Recommendation with Implicit Feedback},
-  journal = {DSE},
-  year    = {2016},
-  file    = {art%3A10.1007%2Fs41019-017-0032-6.pdf:art%3A10.1007%2Fs41019-017-0032-6.pdf:PDF},
-  groups  = {矩阵分解系列},
-  review  = {王科强小论文},
+  author        = {Keqiang Wang},
+  title         = {Local Weighted Matrix Factorization for Top-n Recommendation with Implicit Feedback},
+  journal       = {DSE},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  file          = {art%3A10.1007%2Fs41019-017-0032-6.pdf:art%3A10.1007%2Fs41019-017-0032-6.pdf:PDF},
+  groups        = {矩阵分解系列},
+  review        = {王科强小论文},
 }
 
 @Article{sigir16,
@@ -764,6 +767,47 @@ GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种�
   file          = {adf0066-zhangA.pdf:adf0066-zhangA.pdf:PDF;adf0066-zhangA.docx:adf0066-zhangA.docx:Word 2007+},
   keywords      = {rank5},
   review        = {异构信息 深度学习方法},
+}
+
+@Article{融合隐语义和邻域算法的兴趣点推荐模型_吴海峰_张书奎_林政宽_贾俊铖,
+  author   = {吴海峰},
+  title    = {融合隐语义和邻域算法的兴趣点推荐模型},
+  journal  = {计算机应用研究},
+  year     = {2017},
+  file     = {融合隐语义和邻域算法的兴趣点推荐模型_吴海峰_张书奎_林政宽_贾俊铖.pdf:融合隐语义和邻域算法的兴趣点推荐模型_吴海峰_张书奎_林政宽_贾俊铖.pdf:PDF},
+  keywords = {rank4},
+  review   = {矩阵分解算法与用户相似性计算相结合},
+}
+
+@Article{cf,
+  author        = {Yifan Hu},
+  title         = {Collaborative Filtering for Implicit Feedback Datasets},
+  journal       = {ICDM2008},
+  year          = {2008},
+  __markedentry = {[windows:1]},
+  file          = {cf.pdf:cf.pdf:PDF},
+  groups        = {矩阵分解系列},
+  review        = {为何传统PMF只适用于显示评分},
+}
+
+@Article{Journal-InformationSciences-16-TMF,
+  author        = {Weike Pan},
+  title         = {Mixed factorization for collaborative recommendation with heterogeneous explicit feedbacks},
+  journal       = {Information Sciences},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  file          = {Journal-InformationSciences-16-TMF.pdf:Journal-InformationSciences-16-TMF.pdf:PDF;Journal-InformationSciences-16-TMF.docx:Journal-InformationSciences-16-TMF.docx:Word 2007+},
+}
+
+@Article{rfp0448-liA,
+  author        = {HuayuLi},
+  title         = {Point-of-Interest Recommendations: Learning Potential Check-ins from Friends},
+  journal       = {KDD},
+  year          = {2016},
+  __markedentry = {[windows:1]},
+  file          = {rfp0448-liA.pdf:rfp0448-liA.pdf:PDF;rfp0448-liA.docx:rfp0448-liA.docx:Word 2007+},
+  review        = {王科强[110] 本文使用了较为规整的用户访问次数数据，评分数据及标签数据。但推荐数据还包括许多其他数据，类似用户的评论文本数据，描述商品的图片数据以及领域数据（例如签到数据中地点位置信息，音乐中的音频数据等）。一些前人工作[110,144-146]巧己经表明送类数据对提高个性化推荐系统的准确率都有极大帮助。因此，如何融合多源数据也是未来研究的重点方向。
+},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
