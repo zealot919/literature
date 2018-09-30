@@ -188,20 +188,6 @@ Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网
   file     = {fan2016.pdf:ieee\\fan2016.pdf:PDF},
 }
 
-@Article{batthalla2016,
-  author   = {Sainath_Batthalla/Indian},
-  title    = {VoIP Profiler: Profiling Voice Over IP User Communication Behavior VoIP分析器：分析IP语音IP用户通信行为},
-  journal  = {International Conference on Availability, Reliability and Security},
-  year     = {2016},
-  abstract = {了解IP语音（VoIP）通信中的用户行为具有双重优势。它有助于检测异常，并有助于规划VoIP基础架构部署和优化。 
-各种各样的攻击和滥用，如淹没，格式错误的邮件和垃圾信息都会产生异常。
-在本文中，我们提出了VoIP Profiler一种用户级VoIP分析方法。对于分析用户，我们使用VoIP流量识别一组参数并计算每个用户的这些参数的统计信息。
-随后我们使用这些参数对用户进行分类（并检测异常）。
-我们模拟一个企业网络，并用大量的VoIP数据集进行实验，识别不同类型的成功率高的用户。},
-  file     = {batthalla2016.pdf:ieee\\batthalla2016.pdf:PDF},
-  review   = {模拟一个企业网络，并用大量的VoIP数据集进行实验，识别不同类型的成功率高的用户。},
-}
-
 @Article{bakhshi2016,
   author  = {Taimur_Bakhshi/University_of_Plymouth},
   title   = {Traffic Profiling: Evaluating Stability in Multi-Device User Environments 流量分析：评估多设备用户环境中的稳定性},
@@ -233,7 +219,7 @@ Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网
   __markedentry = {[x:]},
   abstract      = {Web用户分析的研究可以追溯到30年前，目的是从非结构化Web中提取“基于语义”的用户配置文件属性。尽管存在微小差异，但一般方法是首先识别特定用户的相关页面，然后使用机器学习模型（例如，CRF）从页面中提取简档属性。然而，随着Web卷的快速增长，这种方法在两个步骤之间遭受数据冗余和错误传播。
 在本文中，我们重新审视了大数据时代的Web用户分析问题，力图应对新的挑战。我们提出了一个简单但非常有效的方法来从Web中提取用户配置文件属性使用大数据。为了避免错误传播，该方法在一个统一模型中处理所有提取子任务。为了进一步结合人类知识来提高提取性能，我们提出了一种马尔科夫逻辑因子图（MagicFG）模型。MagicFG模型将人类知识描述为一级逻辑，并将逻辑组合到提取模型中。我们对真实数据集的实验表明，与几种基线方法相比，所提出的方法显着提高了提取性能（+ 4-6％; p = 0：01，t检验）。},
-  file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+;ASONAM16-Gu-et-al-web-user-profiling.docx:ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+;ASONAM16-Gu-et-al-web-user-profiling.docx:ppt\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+;ASONAM16-Gu-et-al-web-user-profiling.pdf:ppt\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF},
+  file          = {ASONAM16-Gu-et-al-web-user-profiling.pdf:ieee\\ASONAM16-Gu-et-al-web-user-profiling.pdf:PDF;ASONAM16-Gu-et-al-web-user-profiling.docx:ieee\\ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+;ASONAM16-Gu-et-al-web-user-profiling.docx:ASONAM16-Gu-et-al-web-user-profiling.docx:Word 2007+},
   keywords      = {rank5},
   review        = {密切相关，机器学习算法 分类 关联
  
@@ -338,15 +324,6 @@ to collect social-information},
   keywords      = {rank5},
 }
 
-@Article{hanxianpei,
-  author   = {Xianpei Han},
-  title    = {A Generative Entity-Mention Model for Linking Entities with Knowledge Base},
-  journal  = {HLT '11},
-  year     = {2011},
-  file     = {hanxianpei.pdf:实体\\hanxianpei.pdf:PDF;hanxianpei.docx:实体\\hanxianpei.docx:Word 2007+},
-  keywords = {rank3},
-}
-
 @Article{TKDE16-Song-et-al-influential-user-finding,
   author   = {Guojie Song, Yuanhao Li, Xiaodong Chen, Xinran He and Jie Tang},
   title    = {Influential Node Tracking on Dynamic Social Network: An Interchange Greedy Approach},
@@ -377,17 +354,6 @@ to collect social-information},
   file     = {klinKDD16.pdf:klinKDD16.pdf:PDF},
   keywords = {rank3},
   review   = {机器学习相关},
-}
-
-@Article{07883890,
-  author   = {Shuo Shang},
-  title    = {Searching Trajectories by Regions of Interest},
-  journal  = {TKDE},
-  year     = {2016},
-  abstract = {随着移动物体跟踪数据的可用性的增加，轨迹搜索越来越重要。我们提出并调查一个新兴的查询类型命名轨迹搜索按感兴趣区域（TSR查询）。给出一组轨迹的参数，TSR查询将一组感兴趣区域作为参数，并将具有最高空间密度相关性的参数集中的轨迹返回到查询区域。这种类型的查询在许多流行的应用中是有用的，例如旅行计划和推荐以及基于位置的服务。TSR查询处理面临三大挑战：如何建模空间密度相关在查询区域和数据轨迹之间，如何有效地修剪搜索空间，以及如何有效地调度多个所谓的查询源。为了解决这些挑战，定义了一系列新的度量标准来模拟空间密度相关性。一种高效的轨迹搜索算法被开发利用上限和下限来修剪搜索空间，并采用查询源选择策略，并集成了基于优先级排序的启发式搜索策略来安排多个查询源。基于真实和合成空间数据的广泛实验研究了TSR查询处理的性能。},
-  file     = {07883890.pdf:07883890.pdf:PDF},
-  keywords = {rank1},
-  review   = {按兴趣区搜索轨迹  出租车轨迹兴趣搜索},
 }
 
 @Article{chen2016,
@@ -584,9 +550,10 @@ https://grouplens.org/ 研究者网站
   title         = {Local Low-Rank Matrix Approximation},
   journal       = {ICML},
   year          = {2013},
-  __markedentry = {[windows:1]},
+  __markedentry = {[windows:5]},
   file          = {lee_icml_2013.pdf:lee_icml_2013.pdf:PDF;lee_icml_2013.docx:lee_icml_2013.docx:Word 2007+},
   groups        = {矩阵分解系列},
+  keywords      = {rank5},
 }
 
 @Article{基于评分矩阵局部低秩假设的成列协同排名算法_刘海洋,
@@ -614,7 +581,7 @@ https://grouplens.org/ 研究者网站
 @Article{art%3A10.1007%2Fs41019-017-0032-6,
   author        = {Keqiang Wang,},
   title         = {Local Weighted Matrix Factorization for Top-n Recommendation with Implicit Feedback},
-  journal       = {dasfaa CCF_B},
+  journal       = {DSE},
   year          = {2016},
   __markedentry = {[windows:1]},
   file          = {art%3A10.1007%2Fs41019-017-0032-6.pdf:art%3A10.1007%2Fs41019-017-0032-6.pdf:PDF},
@@ -644,7 +611,6 @@ SIGIR高引用
   year          = {2017},
   __markedentry = {[windows:1]},
   file          = {icml2017.pdf:icml2017.pdf:PDF},
-  keywords      = {rank5},
 }
 
 @Article{FELDMAN_ICML_17,
@@ -828,6 +794,8 @@ GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种�
   year          = {2017},
   __markedentry = {[windows:5]},
   file          = {2017.KDD2017.Meta-Graph.pdf:2017.KDD2017.Meta-Graph.pdf:PDF;2017.KDD2017.Meta-Graph.docx:2017.KDD2017.Meta-Graph.docx:Word 2007+},
+  keywords      = {rank5},
+  review        = {meta-graph MF+FM},
 }
 
 @Article{KDD17-dong-chawla-swami-metapath2vec,
@@ -889,13 +857,12 @@ GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种�
 }
 
 @Article{f5c1088b2d05b61cb9f968165d39b5724e8a,
-  author        = {Huan Zhao,},
-  title         = {Social Recommendation With Local Low Rank Matrix Approximation},
-  journal       = {arXiv},
-  year          = {2017},
-  __markedentry = {[windows:5]},
-  file          = {f5c1088b2d05b61cb9f968165d39b5724e8a.pdf:f5c1088b2d05b61cb9f968165d39b5724e8a.pdf:PDF;f5c1088b2d05b61cb9f968165d39b5724e8a.docx:f5c1088b2d05b61cb9f968165d39b5724e8a.docx:Word 2007+},
-  review        = {基于三度影响力、六度分割理论找锚点；
+  author  = {Huan Zhao,},
+  title   = {Social Recommendation With Local Low Rank Matrix Approximation},
+  journal = {arXiv},
+  year    = {2017},
+  file    = {f5c1088b2d05b61cb9f968165d39b5724e8a.pdf:f5c1088b2d05b61cb9f968165d39b5724e8a.pdf:PDF;f5c1088b2d05b61cb9f968165d39b5724e8a.docx:f5c1088b2d05b61cb9f968165d39b5724e8a.docx:Word 2007+},
+  review  = {基于三度影响力、六度分割理论找锚点；
 feature work：利用pagerank寻找锚点},
 }
 
@@ -949,8 +916,11 @@ feature work：利用pagerank寻找锚点},
   title         = {Local Low-Rank Matrix Approximation with Preference Selection of Anchor Points},
   journal       = {WWW},
   year          = {2017},
-  __markedentry = {[windows:3]},
-  file          = {411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:PDF},
+  __markedentry = {[windows:5]},
+  file          = {411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:PDF;411e41ed9f36de06f226d3dbf6220b89e4cb.docx:411e41ed9f36de06f226d3dbf6220b89e4cb.docx:Word 2007+},
+  keywords      = {rank5},
+  review        = {矩阵分解被广泛用于个性化推荐系统，文本挖掘和计算机视觉。构造矩阵近似的一般假设是原始矩阵具有全局低秩，而Joonseok Lee等。提出许多实矩阵可能不是全局低秩，因此提出了局部低秩矩阵近似方法[11]。然而，这种矩阵近似方法仍然存在一些未解决的重要问题，例如，随机选择锚节点。在本文中，我们研究了锚节点的选择问题，以增强局部低秩矩阵近似。我们提出了一种局部低秩矩阵近似的新模型，该模型使用启发式方法选择锚点。我们的实验表明，所提出的方法优于许多最先进的推荐方法。此外，该方法可以显着提高算法效率，并且易于并行化。这些特性使其具有大规模现实世界推荐系统的潜力。
+首先，我们将观察到的评级矩阵分解，以获得用户（行）和项目（列）的特征。接下来，我们对用户和项目因子矩阵进行聚类，以同时获得候选锚点和距离。然后我们启发式地从这些候选锚点中选择锚点。最后，我们结合锚点周围建立的所有局部矩阵来预测原始矩阵。},
 }
 
 @Article{icdm2017-paper,
@@ -959,8 +929,93 @@ feature work：利用pagerank寻找锚点},
   journal       = {ICDM/CCF_B},
   year          = {2017},
   __markedentry = {[windows:5]},
-  file          = {icdm2017-paper.pdf:icdm2017-paper.pdf:PDF},
+  file          = {icdm2017-paper.pdf:icdm2017-paper.pdf:PDF;icdm2017-paper.docx:icdm2017-paper.docx:Word 2007+},
+  keywords      = {rank5},
   review        = {两方面对LLORMA进行改进：1.利用社会关系改进选择锚点方法；2.在目标函数里加入社交正则优化目标函数},
+}
+
+@Article{Hamilton2017Representation,
+  author        = {Hamilton, William L and Ying, Rex and Leskovec, Jure},
+  title         = {Representation Learning on Graphs: Methods and Applications},
+  year          = {2017},
+  __markedentry = {[windows:4]},
+  file          = {Hamilton2017Representation.pdf:Hamilton2017Representation.pdf:PDF},
+}
+
+@Article{metagraph,
+  author        = {Yuan Fang,},
+  title         = {Semantic Proximity Search on Graphs with Metagraph-based Learning},
+  journal       = {ICDE 数据库方向顶会},
+  year          = {2016},
+  __markedentry = {[windows:5]},
+  file          = {metagraph.pdf:metagraph.pdf:PDF;metagraph.docx:metagraph.docx:Word 2007+},
+  keywords      = {rank5},
+  review        = {zhao huan 引用【6】
+贡献：频繁子图GRAMI方法识别提取metagraph，双阶段训练权重
+meta-graph高度相关
+对于各种类型的互连对象，由于不同的潜在原因而存在不同的邻近语义类别。对于相同的查询节点（例如，Bob），可能存在具有不同结果节点的多个接近类别（例如，Alice作为家庭，而Tom作为同学）。因此，在不区分各种语义类别的情况下，仅仅测量“通用”形式的接近度是不够的。},
+}
+
+@Article{2c9a97c183b24d08ca67f6f55b98d441e8e6,
+  author        = {Zemin Liu,},
+  title         = {Semantic Proximity Search on Heterogeneous Graph by Proximity Embedding},
+  journal       = {AAAI},
+  year          = {2017},
+  __markedentry = {[windows:5]},
+  abstract      = {许多真实世界的网络都有丰富的对象集合。
+这些对象的语义允许我们捕获不同类别的邻近，从而实现语义邻近搜索的重要任务。
+作为语义邻近搜索的核心，我们必须测量异构图上的接近度，异构图的节点是各种类型的对象。
+大多数现有方法依赖于关于两个节点之间的图形结构的工程特征来测量它们的接近度。
+随着最近图形嵌入的发展，我们发现很有可能避免语义邻近搜索的特征工程。
+使用图形嵌入进行语义邻近搜索的工作很少。
+我们还观察到图嵌入方法通常关注嵌入节点，这是一种学习接近度的“间接”方法。
+因此，我们引入了一种新的邻近嵌入概念，它将网络结构直接嵌入两个可能很远的节点之间。
+我们还设计了接近嵌入，以便灵活地支持对称和非对称接近。
+基于邻近嵌入，我们可以轻松估计两个节点之间的接近度得分，并在图上启用搜索。
+我们在三个真实的公共数据集上评估我们的邻近嵌入方法，并表明它优于最先进的基线。},
+  file          = {2c9a97c183b24d08ca67f6f55b98d441e8e6.pdf:2c9a97c183b24d08ca67f6f55b98d441e8e6.pdf:PDF},
+}
+
+@Article{rpp0150-huangA,
+  author        = {Zhipeng Huang,},
+  title         = {Meta Structure: Computing Relevance in Large Heterogeneous Information Networks},
+  journal       = {KDD},
+  year          = {2016},
+  __markedentry = {[windows:5]},
+  file          = {rpp0150-huangA.docx:rpp0150-huangA.docx:Word 2007+;rpp0150-huangA.pdf:rpp0150-huangA.pdf:PDF},
+  review        = {meta-graph 引用[10]},
+}
+
+@Article{199,
+  author        = {Chao Chen,},
+  title         = {MPMA: Mixture Probabilistic Matrix Approximation for Collaborative Filtering},
+  journal       = {IJCAI人工智能顶会},
+  year          = {2016},
+  __markedentry = {[windows:5]},
+  file          = {199.docx:199.docx:Word 2007+;199.pdf:199.pdf:PDF},
+  review        = {local martix},
+}
+
+@Article{1803.02349,
+  author        = {Huan Zhao,},
+  title         = {Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba},
+  journal       = {KDD},
+  year          = {2018},
+  __markedentry = {[windows:5]},
+  abstract      = {在中国最大的C2C(在线消费者对消费者)平台淘宝，推荐系统(RSs)已经成为增加业务的最重要的技术。在淘宝，RS面临着三大挑战:可扩展性、稀疏性和冷启动。在本文中，我们提出了解决这三个挑战的技术解决方案。这些方法基于一个众所周知的图形嵌入框架。我们首先从用户的行为历史中构造了一个项目图，并学习了图中所有项目的嵌入。项目嵌入用于计算所有项目之间的两两相似度，然后在推荐过程中使用。为了减少稀疏性和冷启动问题，在图嵌入框架中加入了侧信息。我们提出了两种聚合方法来集成项目嵌入和相应的边信息。实验结果表明，引入侧信息的方法优于不引入侧信息的方法。此外，我们描述了在淘宝上部署嵌入方法的平台和处理十亿级数据的工作流程。通过A/B检验，我们发现在线点击率(CTRs)与以往淘宝上广泛使用的基于协作传播的方法相比有所提高，进一步证明了我们所提出的方法在淘宝现场生产环境中的有效性和可行性},
+  file          = {1803.02349.pdf:1803.02349.pdf:PDF},
+  review        = {根据历史行为序列构建item的有向graph，在此图上进行随机游走，学习出item的嵌入向量。},
+}
+
+@Article{2017.IJCAI.Semi.supervised,
+  author        = {He Jiang,},
+  title         = {Semi-supervised Learning over Heterogeneous Information Networks by Ensemble of Meta-graph Guided Random Walks},
+  journal       = {IJCAI},
+  year          = {2017},
+  __markedentry = {[windows:5]},
+  abstract      = {元路径约束随机游走},
+  file          = {2017.IJCAI.Semi.supervised.pdf:2017.IJCAI.Semi.supervised.pdf:PDF},
+  keywords      = {rank5},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
