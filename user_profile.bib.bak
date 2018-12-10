@@ -1,22 +1,5 @@
 % Encoding: UTF-8
 
-@Article{2016-acm-WorkshoponProfilingUser,
-  author        = {Rani Nelken},
-  title         = {RecProfile ’16: Workshop on Profiling User Preferences for Dynamic, Online, and Real-Time recommendations},
-  journal       = {RecSys ’16, September 15-19, 2016, Boston , MA, USA},
-  year          = {2016},
-  __markedentry = {[windows:]},
-  abstract      = {本文总结RecProfile '16，第一次关于动态，在线和实时建议的用户偏好分析的研讨会，与RecSys '16，第十届推荐系统ACM会议一起举行。
-我们描述研讨会文件中出现的主要主题。
-
-关键词
-用户分析; 用户偏好; 动态用户分析; 图算法; 推荐系统; 动态社区检测; 矩阵分解; 协同过滤; 基于内容的推荐系统},
-  file          = {2016-acm-WorkshoponProfilingUser Preferences for Dynamic, Online, and Real-Time recommendations .pdf:2016-acm-WorkshoponProfilingUser Preferences for Dynamic, Online, and Real-Time recommendations .pdf:PDF},
-  keywords      = {rank5},
-  review        = {未精读
-通过关键词可以看出该会议最新的研究点},
-}
-
 @Article{2016-ACM-Personalised,
   author   = {Gabriella Kazai/Lumi_News},
   title    = {Personalised News and Blog Recommendations based on User Location, Facebook and Twitter User Profiling 基于用户位置，Facebook和Twitter用户分析的个性化新闻和博客推荐},
@@ -41,24 +24,6 @@ We use a Bayesian formula due to Evan Miller4 to compare two types of recommenda
 数据源：http://www.evanmiller.org/bayesian-abtesting.html},
 }
 
-@Article{2016-acm-Profiling,
-  author   = {Pengyuan Zhou/University of Helsinki, Finland},
-  title    = {Profiling and Grouping Users to Edge Resources According to User Interest Similarity 根据用户兴趣相似性对用户进行边缘资源分析和分组},
-  journal  = {CAN’16, December 12 2016, Irvine, CA, USA},
-  year     = {2016},
-  abstract = {云计算为大规模分布式应用程序提供了一个共享的资源池。
-雾化计算和边缘计算等最新趋势使得云端的工作量更接近网络和用户的边缘。
-有效利用边缘资源需要管理资源，并将用户流量引导到正确的边缘服务器。
-在本文中，我们建议根据用户的兴趣情况对用户进行配置和分组。
-我们认为边缘缓存是一个例子，通过我们的评估显示将用户从同一个组引导到同一个缓存的潜在好处。
-我们调查一系列工作负载和参数，并得出相同的结论。
-我们的研究结果突出了用户分组的重要性，并展示了这种方法的潜在优势。},
-  file     = {2016-acm-Profiling and Grouping Users to Edge Resources According to User Interest Similarity.pdf:2016-acm-Profiling and Grouping Users to Edge Resources According to User Interest Similarity.pdf:PDF},
-  review   = {只看了实验部分
-使用伊卡洛斯作为评估分组性能的模拟器。Icarus是用于评估缓存性能的ICN模拟器[16]
-对于用户兴趣分配函数，我们使用广泛接受的Zipfian分布},
-}
-
 @Article{2016-acm-UserProfilinginthe,
   author   = {Roberto.Gonzalez/NEC.Labs.Europe},
   title    = {User Profiling in the Time of HTTPS},
@@ -74,14 +39,6 @@ HTTPS的到来应该使得对于任何超出通信端点的人来说，更难以
 总体而言，我们的结果表明，尽管HTTPS使得分析更加困难，但它并没有以任何方式消除它。},
   file     = {2016-acm-UserProfilinginthe Time of HTTPS.pdf:2016-acm-UserProfilinginthe Time of HTTPS.pdf:PDF},
   review   = {仅看摘要，从http协议获取信息},
-}
-
-@Article{2016-acm-Firstlearn,
-  author  = {Merkourios Karaliopoulos/Athens_University},
-  title   = {First Learn then Earn: Optimizing Mobile Crowdsensing Campaigns through Data-driven User Profiling},
-  journal = {MobiHoc’16, July 04 - 08, 2016, Paderborn, Germany},
-  year    = {2016},
-  file    = {2016-acm-Firstlearn then earn- optimizing mobile crowdsensing campaigns through data-driven user profiling.pdf:2016-acm-Firstlearn then earn- optimizing mobile crowdsensing campaigns through data-driven user profiling.pdf:PDF},
 }
 
 @Article{yin2016,
@@ -103,19 +60,6 @@ HTTPS的到来应该使得对于任何超出通信端点的人来说，更难以
   review   = {视频类},
 }
 
-@Article{wang2016,
-  author   = {Sisi_Wang/University_of_Washington_Tacoma},
-  title    = {VirtualIdentity: Privacy Preserving User Profiling 虚拟身份：隐私保护用户分析},
-  journal  = {ASONAM(EI检索)},
-  year     = {2016},
-  abstract = {用户生成内容（UGC）的用户分析是支持许多社交媒体公司的商业模式的常见做法。
-现有系统要求UGC完全暴露于构建用户配置文件的模块。
-在本文中，我们展示了可以在不访问用户原始数据的情况下构建用户配置文件，
-并且不会向社交媒体网站的用户暴露用于用户分析的受过训练的机器学习模型（作为公司的知识产权）。
-我们提出虚拟身份，一种应用程序，使用安全的多方加密协议来检测用户的年龄，性别和个性特征，通过使用经过训练的支持向量机模型以隐私保护方式对其用户生成的文本和个人图片进行分类},
-  file     = {wang2016.pdf:ieee\\wang2016.pdf:PDF},
-}
-
 @Article{sahil2016,
   author   = {Sahi/Punjab_Institute_of_Technology_Kapurthala},
   title    = {Designing and Analysis of User Profiling System forCloud Computing Security using Fuzzy guided Genetic Algorithm 使用模糊引导遗传算法进行云计算安全用户分析系统的设计与分析},
@@ -127,18 +71,6 @@ HTTPS的到来应该使得对于任何超出通信端点的人来说，更难以
 本文是基于我们最后一篇论文的发现，我们发现基于人工智能技术的用户分析系统的设计：模糊和遗传算法单独不足以提供全面的用户分析系统，但可能是可能的 以混合方式使用这两种方法来设计用于云计算安全性的全面的用户分析系统。因此，我们使用混合方法模糊导向遗传算法设计用户分析系统，发现它涵盖了我们以前的工作分析的所有研究差距，甚至完成了评估框架的所有七个原则},
   file     = {sahil2016.pdf:ieee\\sahil2016.pdf:PDF},
   review   = {无通用数据},
-}
-
-@Article{paper2015_accepted,
-  author   = {Jens/Lund_University},
-  title    = {User profiling for Pre-fetching or Caching in a Catch-Up TV Network 用户分析在捕捉电视网络中进行预取或缓存},
-  journal  = {BMSB IEEE International Symposium on Broadband Multimedia Systems and Broadcasting},
-  year     = {2016},
-  abstract = {我们调查针对不同用户行为的不同预取和/或缓存策略对于赶上电视网络中的冲浪或浏览的潜力。
-为此，我们分别确定与强或弱冲浪或浏览相关的帐户和渠道，并研究不同类型行为的保留时间分布。
-最后，我们从不同类型行为的请求预测模型和缓存模拟中提出结果，并发现结果相对相似。},
-  file     = {paper2015_accepted.pdf:ieee\\paper2015_accepted.pdf:PDF},
-  review   = {视频类分析},
 }
 
 @Article{pandey2016,
@@ -165,15 +97,6 @@ umblr公开提供的API已被用于收集每个数据集，如下文所述的小
 在Python中编写了一个广泛的第一搜索（BFS）爬虫，用于启动用5个病毒Tumblr博客[20]作为种子的博客的数据收集。
 爬行器首先收集了这些种子的公开暴露的样子反复提取“喜欢喜欢”。在这个过程中，共收集了329,526个博客，我们将其称为“博客”数据集。
 除此之外，还包含所有这些博客的标题和描述的元信息也被收集并存储为博客信息数据集},
-}
-
-@Article{OpenFlow-Enabled,
-  author  = {Taimur_Bakhshi/University_of_Plymouth},
-  title   = {OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks 在校园软件定义网络OpenFlow的启用用户流量剖析},
-  journal = {WiMob},
-  year    = {2016},
-  file    = {OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks.pdf:ieee\\OpenFlow-Enabled User Traffic Profiling in Campus Software Defined Networks.pdf:PDF},
-  review  = {网络流量方向文章，暂未读},
 }
 
 @Article{fan2016,
@@ -231,17 +154,6 @@ Wi-Fi接入点的SSID通常是可读的字符串，因此通常被称为Wi-Fi网
 为了构建定量评估的基本真实数据集，我们从AMiner.org [9]随机选择了2,000名研究人员。具体来说，为了提取每个研究人员的电子邮件，我们通过查询人名和单词“电子邮件”来搜索网页。这样可以得到4,528个电子邮件候选人。应用人体注释来识别正确的电子邮件地址。以类似的方式推断性别，我们通过查询人名和单词“他”或“她”来搜索网页。还进行了人类注释，以确定这2,000名研究人员的性别。对于注释中的分歧，我们进行了“多数投票”。最后，对于2000名研究人员，我们确定了34％的研究人员是女性研究人员; 约40％的电子邮件候选人是正确的电子邮件，这意味着我们的框架可以为超过90％的用户找到正确的电子邮件。},
 }
 
-@Article{2016-arxiv-User,
-  author  = {Alan_Ferrari/Switzerland},
-  title   = {Building accurate HAV exploiting User Profiling and Sentiment Analysis},
-  journal = {none},
-  year    = {2016},
-  file    = {2016-arxiv-User Profiling in the Time of HTTPS.pdf:2016-arxiv-User Profiling in the Time of HTTPS.pdf:PDF},
-  review  = {Publicly available Software API that the majority social
-network offers to access their data programmatically are used
-to collect social-information},
-}
-
 @Article{2016-atlantis-User,
   author  = {Murad_Ali/Pakistan},
   title   = {User Profiling Through Browser Finger Printing},
@@ -250,15 +162,6 @@ to collect social-information},
   file    = {2016-atlantis-User Profiling Through Browser Finger Printing.pdf:2016-atlantis-User Profiling Through Browser Finger Printing.pdf:PDF},
   review  = {基于浏览痕迹进行用户分析
 自行收集数据},
-}
-
-@Article{2017-springer-Second,
-  author   = {Angelos_Valsamis/Athens},
-  title    = {Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs},
-  journal  = {SETE 2016, LNCS 10108},
-  year     = {2017},
-  abstract = {在社交电视的背景下，第一和第二屏幕用户的日益普及，在线互动和发布内容，展示了新的业务机会和相关的技术挑战，以丰富用户在这种环境中的体验。SAM（社交环绕媒体）项目使用社交媒体连接的基础设施来应对上述挑战，提供智能用户上下文管理模型和机制捕获社会模式，应用协同过滤技术和个性化建议朝这个方向发展。本文介绍了SAM的上下文管理机制，运行在社交电视环境中，为第一和第二屏幕内容提供智能建议。所提供的工作使用在线查找的实际电影评级数据集进行评估，以验证SAM的有效性和效率方法。},
-  file     = {2017-springer-Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs.pdf:2017-springer-Second Screen User Profiling and Multi-level Smart Recommendations in the Context of Social TVs.pdf:PDF},
 }
 
 @Article{新浪微博数据挖掘方案_廉捷,
@@ -414,15 +317,6 @@ to collect social-information},
   file          = {streak-tkdd.pdf:streak-tkdd.pdf:PDF},
 }
 
-@Article{DMKD_final-new,
-  author        = {Peng Wang},
-  title         = {Hierarchical Evolving Dirichlet Processes for Modeling Nonlinear Evolutionary Traces in Temporal Data 在时间数据中建立非线性进化轨迹的分层演进Dirichlet过程},
-  journal       = {DMKD},
-  year          = {2017},
-  __markedentry = {[x:1]},
-  file          = {DMKD_final-new.pdf:DMKD_final-new.pdf:PDF},
-}
-
 @Article{07551120,
   author   = {Konstantinos Georgoulas},
   title    = {User-Centric Similarity Search},
@@ -441,14 +335,6 @@ to collect social-information},
   file     = {p745-bressan.pdf:p745-bressan.pdf:PDF;p745-bressan.docx:p745-bressan.docx:Word 2007+},
   keywords = {rank5},
   review   = {看至第三章,数学原理较深},
-}
-
-@Article{sequences-www2016,
-  author  = {Austin R. Benson},
-  title   = {Modeling User Consumption Sequences},
-  journal = {www2016},
-  year    = {2016},
-  file    = {sequences-www2016.pdf:sequences-www2016.pdf:PDF},
 }
 
 @Article{组推荐系统及其应用研究_张玉洁,
@@ -613,25 +499,6 @@ SIGIR高引用
   file          = {icml2017.pdf:icml2017.pdf:PDF},
 }
 
-@Article{FELDMAN_ICML_17,
-  author   = {Dan Feldman},
-  title    = {Coresets for Vector Summarization with Applications to Network Graphs},
-  journal  = {ICML},
-  year     = {2017},
-  abstract = {智能手机，可穿戴设备和社交媒体的广泛使用为人们创造了广泛的数字足迹空间，其中包括GPS踪迹的位置信息，电话记录，社交媒体发布等。
-这是一个不断增长的财富数据，可用于识别社会结构和预测活动模式。
-我们希望提供一组移动用户的潜在社交网络，给出有关他们的数据（例如，
-GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种活动，如会议，朋友团体，聚会场所，集体活动模式等。
-实现这些功能有几个关键的挑战。
-1，数据是巨大的，所以我们需要有效的方法来处理和表示数据。
-2，数据是多模式的异质性。这在数据处理和表示方面提出了挑战，而且提供了在单个数据源中可能不可见的相关性的机会。
-3，数据往往很嘈杂。
-我们提出一种基于coreets的方法来提取底层连接信息，同时对给定的大数据集进行数据汇总。},
-  file     = {FELDMAN_ICML_17.pdf:FELDMAN_ICML_17.pdf:PDF},
-  keywords = {rank4},
-  review   = {coresets 内核集算法},
-}
-
 @Article{550,
   author        = {Keqiang Wang,},
   title         = {Bayesian Probabilistic Multi-Topic Matrix Factorization for Rating Prediction},
@@ -714,9 +581,9 @@ GPS踪迹，电话历史记录，新闻文章等），以识别和预测各种�
 @Article{42,
   author        = {Chuan Shi,},
   title         = {Heterogeneous Information Network Embedding for Recommendation},
-  journal       = {arxiv},
+  journal       = {TKDE},
   year          = {2017},
-  __markedentry = {[windows:3]},
+  __markedentry = {[windows:5]},
   abstract      = {由于数据异构性建模的灵活性，异构信息网络（HIN）被用来描述推荐系统中复杂和异构的辅助数据，称为基于HIN的推荐。
 从HIN提取和利用信息开发基于HIN的推荐的有效方法是具有挑战性的。
 大多数基于HIN的推荐方法依赖于基于路径的相似度，不能充分挖掘用户和项目的潜在结构特征。
@@ -918,7 +785,7 @@ feature work：利用pagerank寻找锚点},
   year          = {2017},
   __markedentry = {[windows:5]},
   file          = {411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:411e41ed9f36de06f226d3dbf6220b89e4cb.pdf:PDF;411e41ed9f36de06f226d3dbf6220b89e4cb.docx:411e41ed9f36de06f226d3dbf6220b89e4cb.docx:Word 2007+},
-  keywords      = {rank5},
+  keywords      = {rank4},
   review        = {矩阵分解被广泛用于个性化推荐系统，文本挖掘和计算机视觉。构造矩阵近似的一般假设是原始矩阵具有全局低秩，而Joonseok Lee等。提出许多实矩阵可能不是全局低秩，因此提出了局部低秩矩阵近似方法[11]。然而，这种矩阵近似方法仍然存在一些未解决的重要问题，例如，随机选择锚节点。在本文中，我们研究了锚节点的选择问题，以增强局部低秩矩阵近似。我们提出了一种局部低秩矩阵近似的新模型，该模型使用启发式方法选择锚点。我们的实验表明，所提出的方法优于许多最先进的推荐方法。此外，该方法可以显着提高算法效率，并且易于并行化。这些特性使其具有大规模现实世界推荐系统的潜力。
 首先，我们将观察到的评级矩阵分解，以获得用户（行）和项目（列）的特征。接下来，我们对用户和项目因子矩阵进行聚类，以同时获得候选锚点和距离。然后我们启发式地从这些候选锚点中选择锚点。最后，我们结合锚点周围建立的所有局部矩阵来预测原始矩阵。},
 }
@@ -949,7 +816,7 @@ feature work：利用pagerank寻找锚点},
   year          = {2016},
   __markedentry = {[windows:5]},
   file          = {metagraph.pdf:metagraph.pdf:PDF;metagraph.docx:metagraph.docx:Word 2007+},
-  keywords      = {rank5},
+  keywords      = {rank4},
   review        = {zhao huan 引用【6】
 贡献：频繁子图GRAMI方法识别提取metagraph，双阶段训练权重
 meta-graph高度相关
@@ -1015,7 +882,64 @@ meta-graph高度相关
   __markedentry = {[windows:5]},
   abstract      = {元路径约束随机游走},
   file          = {2017.IJCAI.Semi.supervised.pdf:2017.IJCAI.Semi.supervised.pdf:PDF},
+  keywords      = {rank4},
+}
+
+@Article{Perozzi,
+  author        = {Bryan Perozzi,},
+  title         = {DeepWalk: Online Learning of Social Representations},
+  journal       = {KDD},
+  year          = {2014},
+  __markedentry = {[windows:5]},
+  file          = {:14_kdd_deepwalk-slides.pdf:PDF;Perozzi.pdf:Perozzi.pdf:PDF},
   keywords      = {rank5},
+}
+
+@Article{14-301,
+  author        = {Joonseok Lee,},
+  title         = {LLORMA: Local Low-Rank Matrix Approximation},
+  journal       = {JMLR CCF-A},
+  year          = {2016},
+  __markedentry = {[windows:5]},
+  file          = {14-301.pdf:14-301.pdf:PDF},
+  keywords      = {rank5},
+}
+
+@Article{1803-shichuan,
+  author  = {Chuan Shi,},
+  title   = {异质网络表征学习的研究进展},
+  journal = {中国计算机学会通讯},
+  year    = {2018},
+  file    = {1803-shichuan.pdf:1803-shichuan.pdf:PDF},
+  review  = {embedding},
+}
+
+@Article{KDD08-Tang-et-al-ArnetMiner,
+  author   = {Jie Tang,},
+  title    = {ArnetMiner: Extraction and Mining of Academic Social Networks},
+  journal  = {KDD},
+  year     = {2008},
+  file     = {KDD08-Tang-et-al-ArnetMiner.pdf:KDD08-Tang-et-al-ArnetMiner.pdf:PDF},
+  keywords = {Social Network, Information Extraction, Name Disambiguation,},
+  review   = {Social Network, Information Extraction, Name Disambiguation,},
+}
+
+@Article{wsdm10,
+  author   = {Hao Ma,},
+  title    = {Recommender Systems with Social Regularization},
+  journal  = {WSDM},
+  year     = {2011},
+  file     = {wsdm10.pdf:wsdm10.pdf:PDF},
+  keywords = {rank5},
+}
+
+@Article{299,
+  author  = {Cheng Yang,},
+  title   = {Network Representation Learning with Rich Text Information},
+  journal = {IJCAI},
+  year    = {2015},
+  file    = {299.pdf:299.pdf:PDF},
+  review  = {矩阵分解为3块：第三块为文本信息},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
